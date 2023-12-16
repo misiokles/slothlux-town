@@ -3,6 +3,7 @@
 	{
 		"nativeTerrain": "grass",
 		"alignment" : "good",
+		"boat" : "boatCastle",
 		"creatureBackground" :
 		{
 			"120px" : "slothlux/creaturebg120.bmp",
@@ -610,8 +611,7 @@
 			},
 			"mageGuild" : 4,
 			"warMachine" : "ammoCart",
-			"moatDamage" : 70,
-			"moatHexes" : [ 12, 27, 41, 56, 70, 84, 100, 116, 131, 147, 162 ],
+			"moatAbility" : "castleMoat",
 			"names" : [
 				"Lavenix",
 				"Lavium",
@@ -697,6 +697,8 @@
 
 			"siege" : {
 				"shooter" : "blueBeanoid",
+				"towerIconSmall" : "slothlux/icons/arrowtowerssmall",
+				"towerIconLarge" : "slothlux/icons/arrowtowerslarge",
 				"imagePrefix" : "slothlux/siege/SGVX",
 				"gate" :
 				{
@@ -720,19 +722,19 @@
 					{
 						"battlement" : { "x" : 679, "y" : 518 },
 						"creature" : { "x" : 450, "y" : 300 },
-						"tower" : { "x" : 679, "y" : 518, "z" : -1 }
+						"tower" : { "x" : 679, "y" : 518 } // { "x" : 679, "y" : 518, "z" : -1 }
 					},
 					"keep" :
 					{
 						"battlement" : { "x" : 764, "y" : 178 },
 						"creature" : { "x" : 530, "y" : -60 },
-						"tower" : { "x" : 764, "y" : 178,"z" : -1 }
+						"tower" : { "x" : 764, "y" : 178 } //{ "x" : 764, "y" : 178,"z" : -1 }
 					},
 					"top" :
 					{
 						"battlement" : { "x" : 615, "y" : 24 },
 						"creature" : { "x" : 380, "y" : -200 },
-						"tower" : { "x" : 615, "y" : 24, "z" : -1 }
+						"tower" : { "x" : 615, "y" : 24 } //{ "x" : 615, "y" : 24, "z" : -1 }
 					}
 				},
 				"walls" :

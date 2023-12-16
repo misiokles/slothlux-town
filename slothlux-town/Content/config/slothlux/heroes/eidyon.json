@@ -42,47 +42,8 @@
 			}
 		},
 		
-		"specialty": 
-		[
-			{
-				"growsWithLevel": true, 
-				"bonuses":
-				[
-					{
-						"type": "PRIMARY_SKILL",
-						"subtype": 0,
-						"limiters":
-						[
-							{
-								"type": "CREATURE_TYPE_LIMITER",
-								"parameters" : ["mylodon", true]
-							}
-						]
-					},
-					{
-						"type": "PRIMARY_SKILL",
-						"subtype": 1,
-						"limiters":
-						[
-							{
-								"type": "CREATURE_TYPE_LIMITER",
-								"parameters" : ["mylodon", true]
-							}
-						]
-					},
-					{
-						"type": "STACKS_SPEED",
-						"val": 1,
-						"limiters":
-						[
-							{
-								"type": "CREATURE_TYPE_LIMITER",
-								"parameters" : ["mylodon", true]
-							}
-						]
-					}
-				]
-			}
-		]
+		"specialty" : {
+			"creature" : "mylodon"
+		}
 	}
 }

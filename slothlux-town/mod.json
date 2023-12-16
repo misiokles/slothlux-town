@@ -4,9 +4,17 @@
 	
 	"author" : "M.C.Phee",
 	"contact" : "slothlux@o2.pl",
-	"version" : "0.4",
+	"version" : "0.5.0",
 	"modType" : "Town",	
-	
+	"compatibility" :
+	{
+		"min" : "1.4.0"
+	},
+	"changelog" :
+	{
+		"0.5.0"   : [ "Update to 1.4 format" ],
+		"0.4.0"   : [ "Initial release" ]
+	},	
     "factions" : [ "config/slothlux/town.json" ],
 	
 	"creatures" :

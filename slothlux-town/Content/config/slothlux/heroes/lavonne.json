@@ -45,17 +45,14 @@
 		[
 			"mirth"
 		],
-		"specialty": 
-		[
-			{
-				"bonuses":
-				[
-					{
-						"type": "MAXED_SPELL",
-						"subtype": "spell.mirth"
-					}
-				]
+		"specialty" : {
+			"bonuses" : {
+				"mirth" : {
+					"addInfo" : 3,
+					"subtype" : "spell.mirth",
+					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
+				}			
 			}
-		]
+		}
 	}
 }

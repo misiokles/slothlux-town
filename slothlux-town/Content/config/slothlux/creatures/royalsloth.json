@@ -36,7 +36,8 @@
 		{
 		"KING1" :
 			{
-				"type" : "KING1"
+				"type" : "KING",
+				"val" : 0
 			},
 		"Mind Immune" :
 			{
@@ -58,7 +59,7 @@
 
 			"timeBetweenFidgets" : 10,
 
-			"animationTime" : {	"walk" : 2.00, "idle" : 20.00, "attack" : 2.00, "flight" : 1.00 }
+			"animationTime" : {	"walk" : 2.00, "idle" : 20.00, "attack" : 2.00 }
 		},
 
 		"sound" : 

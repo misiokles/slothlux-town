@@ -42,47 +42,8 @@
 			}
 		},
 		
-		"specialty": 
-		[
-			{
-				"growsWithLevel": true, 
-				"bonuses":
-				[
-					{
-						"type": "PRIMARY_SKILL",
-						"subtype": 0,
-						"limiters":
-						[
-							{
-								"type": "CREATURE_TYPE_LIMITER",
-								"parameters" : ["fragaria", true]
-							}
-						]
-					},
-					{
-						"type": "PRIMARY_SKILL",
-						"subtype": 1,
-						"limiters":
-						[
-							{
-								"type": "CREATURE_TYPE_LIMITER",
-								"parameters" : ["fragaria", true]
-							}
-						]
-					},
-					{
-						"type": "STACKS_SPEED",
-						"val": 1,
-						"limiters":
-						[
-							{
-								"type": "CREATURE_TYPE_LIMITER",
-								"parameters" : ["fragaria", true]
-							}
-						]
-					}
-				]
-			}
-		]
+		"specialty" : {
+			"creature" : "fragaria"
+		}
 	}
 }

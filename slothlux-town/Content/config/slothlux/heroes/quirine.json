@@ -51,10 +51,11 @@
 		],
 		"specialty" : {
 			"bonuses" : {
-				"fortune" : {
+				"mirth" : {
+					"addInfo" : 3,
 					"subtype" : "spell.fortune",
-					"type" : "MAXED_SPELL"
-				}
+					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
+				}			
 			}
 		}
 	}

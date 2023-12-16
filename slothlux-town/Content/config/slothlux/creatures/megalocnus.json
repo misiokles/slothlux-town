@@ -44,7 +44,7 @@
 
 			"timeBetweenFidgets" : 10,
 
-			"animationTime" : {	"walk" : 2.00, "idle" : 10.00, "attack" : 2.00,"flight" : 1.00 }
+			"animationTime" : {	"walk" : 2.00, "idle" : 10.00, "attack" : 2.00 }
 		},
 
 		"sound" : 

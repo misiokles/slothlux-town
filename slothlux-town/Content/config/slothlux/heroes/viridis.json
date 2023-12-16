@@ -45,58 +45,8 @@
 		[
 			"antiMagic"
 		],
-		"specialty": 
-		[
-			{
-				"growsWithLevel": true, 
-				"bonuses":
-				[
-					{
-						"type": "PRIMARY_SKILL",
-						"subtype": 0,
-						"limiters":
-						[
-							{
-								"type": "CREATURE_TYPE_LIMITER",
-								"parameters" : ["sphere", true]
-							}
-						]
-					},
-					{
-						"type": "PRIMARY_SKILL",
-						"subtype": 1,
-						"limiters":
-						[
-							{
-								"type": "CREATURE_TYPE_LIMITER",
-								"parameters" : ["sphere", true]
-							}
-						]
-					},
-						{
-						"type": "PRIMARY_SKILL",
-						"subtype": 2,
-						"limiters":
-						[
-							{
-								"type": "CREATURE_TYPE_LIMITER",
-								"parameters" : ["sphere", true]
-							}
-						]
-					},
-					{
-						"type": "STACKS_SPEED",
-						"val": 1,
-						"limiters":
-						[
-							{
-								"type": "CREATURE_TYPE_LIMITER",
-								"parameters" : ["sphere", true]
-							}
-						]
-					}
-				]
-			}
-		]
+		"specialty" : {
+			"creature" : "sphere"
+		}
 	}
 }

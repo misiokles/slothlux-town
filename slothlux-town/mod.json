@@ -1,0 +1,78 @@
+{
+	"name" : "Slothlux Town",
+	"description" : "First Life and Freedom Empire Town",
+	
+	"author" : "M.C.Phee",
+	"contact" : "slothlux@o2.pl",
+	"version" : "0.4",
+	"modType" : "Town",	
+	
+    "factions" : [ "config/slothlux/town.json" ],
+	
+	"creatures" :
+	[
+		"config/slothlux/creatures/hapalops.json",
+		"config/slothlux/creatures/megalocnus.json",
+		"config/slothlux/creatures/mylodon.json",
+		"config/slothlux/creatures/paramylodon.json",
+		"config/slothlux/creatures/bluebeanoid.json",
+		"config/slothlux/creatures/purplebeanoid.json",
+		"config/slothlux/creatures/grandsloth.json",
+		"config/slothlux/creatures/royalsloth.json",
+		"config/slothlux/creatures/imperialsloth.json",
+		"config/slothlux/creatures/fragaria.json",
+		"config/slothlux/creatures/strawberry.json",
+		"config/slothlux/creatures/brocculat.json",
+		"config/slothlux/creatures/gbrocculat.json",
+		"config/slothlux/creatures/sphere.json",
+		"config/slothlux/creatures/largesphere.json"
+	],
+        
+	"changelog" :
+    {
+		"0.1" : ["Initial release"],
+		"0.1.1" : ["first working"],
+		"0.1.2" : ["some graphics bugs fixed"],
+		"0.1.3" : ["improved Mylodons and Paramylodons added"],
+		"0.1.4" : ["bigger adventure icons of Mylodons and Paramylodons added"],
+		"0.1.5" : ["Beanoids"],
+		"0.1.6" : ["Great Sloths"],
+		"0.1.7" : ["Fragaria, Strawberries, Brocculats"],
+		"0.2.0" : ["Slothlux...whole town"],
+		"0.3.0" : ["New Great Sloths"],
+		"0.4.0" : ["renewed rest of the line-up"]
+    },  
+	
+	"heroClasses" :
+	[
+		"config/slothlux/classes/forthrunner.json",
+		"config/slothlux/classes/enlighter.json"
+	],
+
+	"heroes" :
+	[
+		"config/slothlux/heroes/yukar.json",
+		"config/slothlux/heroes/junis.json",
+		"config/slothlux/heroes/launce.json",
+		"config/slothlux/heroes/eidyon.json",
+		"config/slothlux/heroes/nairc.json",
+		"config/slothlux/heroes/vire.json",
+		"config/slothlux/heroes/alynore.json",
+		"config/slothlux/heroes/tove.json",
+		"config/slothlux/heroes/viridis.json",
+		"config/slothlux/heroes/quirine.json",
+		"config/slothlux/heroes/phaeo.json",
+		"config/slothlux/heroes/forthwind.json",
+		"config/slothlux/heroes/miura.json",
+		"config/slothlux/heroes/dyfyr.json",
+		"config/slothlux/heroes/lavonne.json",
+		"config/slothlux/heroes/peredur.json"
+	],
+	 "objects":
+    [
+		"config/slothlux/dwellings.json"
+    ]
+
+    
+	
+}

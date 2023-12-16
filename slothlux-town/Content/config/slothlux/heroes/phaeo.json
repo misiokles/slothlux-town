@@ -1,0 +1,61 @@
+{
+	"phaeo" :
+	{
+		"class" : "enlighter",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "slothlux/heroes/phaeo/firstaid32.bmp",
+			"specialtyLarge" : "slothlux/heroes/phaeo/firstaid44.bmp",
+			"large" : "slothlux/heroes/phaeo/phaeo6458.bmp",
+			"small" : "slothlux/heroes/phaeo/phaeo4832.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "hapalops", "min" : 20, "max" : 30 },
+			{ "creature" : "fragaria", "min" :  5, "max" :  10 },
+			{ "creature" : "brocculat", "min" :  3, "max" :  5 }
+		],
+
+		"skills" :
+		[
+			
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			}
+			
+		],
+		"texts" :
+		{
+			"name" : "Phaeo",
+			"biography" : "unknown",
+			"specialty" : 
+			{
+				"description" : "First Aid",
+				"tooltip" : "First Aid",
+				"name" : "First Aid"
+			}
+		},
+		"spellbook" :
+		[
+			"cure"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"firstAid" : {
+					"subtype" : "skill.firstAid",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}

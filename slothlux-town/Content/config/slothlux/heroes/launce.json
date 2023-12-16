@@ -1,0 +1,88 @@
+{
+	"launce" :
+	{
+		"class" : "forthrunner",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "slothlux/heroes/launce/brocculat32.bmp",
+			"specialtyLarge" : "slothlux/heroes/launce/brocculat44.bmp",
+			"large" : "slothlux/heroes/launce/launce6458.bmp",
+			"small" : "slothlux/heroes/launce/launce4832.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "hapalops", "min" : 20, "max" : 30 },
+			{ "creature" : "brocculat", "min" :  3, "max" :  5 },
+			{ "creature" : "brocculat", "min" : 3, "max" :  5 }
+		],
+
+		"skills" :
+		[
+			
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "ballistics"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Launce",
+			"biography" : "unknown",
+			"specialty" : 
+			{
+				"description" : "Brocculats get extra attack and defence growing with level",
+				"tooltip" : "Bonus: Brocculats",
+				"name" : "Brocculats"
+			}
+		},
+		
+		"specialty": 
+		[
+			{
+				"growsWithLevel": true, 
+				"bonuses":
+				[
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 0,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["brocculat", true]
+							}
+						]
+					},
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["brocculat", true]
+							}
+						]
+					},
+					{
+						"type": "STACKS_SPEED",
+						"val": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["brocculat", true]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

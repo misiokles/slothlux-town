@@ -1,0 +1,77 @@
+{
+	"royalSloth" : 
+	{
+		"name" : { "singular" : "Royal Sloth", "plural" : "Royal Sloths" },
+		
+		"level" : 7,
+
+		"special" : false,
+		
+		"faction" : "slothlux", 
+		
+		"cost" : { "gold" : 3000, "crystal" :2 },
+		
+		"fightValue" : 5000,
+		
+		"aiValue" : 6000,
+		
+		"growth" : 1,
+		
+//		"hordeGrowth" : 1,
+	
+		"attack" : 24,
+		
+		"defense" : 22,
+		
+		"hitPoints" : 225,
+		
+		"speed" : 8,
+		
+		"damage" : { "min" : 30,"max" : 40},
+		"advMapAmount" : { "min" : 2,"max" : 7},
+
+		"doubleWide" : true,
+		
+"abilities" :
+		{
+		"KING1" :
+			{
+				"type" : "KING1"
+			},
+		"Mind Immune" :
+			{
+				"type" : "MIND_IMMUNITY"
+			}
+		},
+		
+		"hasDoubleWeek": true,
+		
+		"graphics" :
+		{
+			"animation" : "slothlux/battle/creatures/rsloth.def",
+
+			"map" : "slothlux/map/creatures/rslothadv.def",
+
+			"iconSmall" : "slothlux/iconssmall/rsloth32.bmp",
+
+			"iconLarge" : "slothlux/iconsbig/rsloth58x64.bmp",
+
+			"timeBetweenFidgets" : 10,
+
+			"animationTime" : {	"walk" : 2.00, "idle" : 20.00, "attack" : 2.00, "flight" : 1.00 }
+		},
+
+		"sound" : 
+		{
+			"attack": "slothlux/hapalops_attack.wav",
+			
+			"defend": "slothlux/hapalops_defence.wav",
+
+			"killed": "slothlux/hapalops_death.wav",
+
+			"move": "slothlux/hapalops_move.wav",
+
+			"wince": "slothlux/hapalops_wince.wav"
+		}
+	}
+}

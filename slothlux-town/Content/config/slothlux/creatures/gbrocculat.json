@@ -1,0 +1,81 @@
+{
+	"greaterBrocculat" : 
+	{
+		"name" : { "singular" : "Great Brocculat", "plural" : "Greater Brocculats" },
+		
+		"level" : 3,
+
+		"special" : false,
+		
+		"faction" : "slothlux", 
+		
+		"cost" : { "gold" : 250 },
+		
+		"fightValue" : 400,
+		
+		"aiValue" : 400,
+		
+		"growth" : 7,
+		
+//		"hordeGrowth" : 1,
+	
+		"attack" : 8,
+		
+		"defense" : 6,
+		
+		"hitPoints" : 25,
+		
+		"speed" : 8,
+		
+		"damage" : { "min" : 4,"max" : 6},
+		"advMapAmount" : { "min" : 20,"max" : 50},
+
+			
+		
+"abilities" :
+		{
+		"Mind Immune" :
+			{
+			"type" : "MIND_IMMUNITY"
+			},
+			"No Retal" :
+			{
+			"type" : "BLOCKS_RETALIATION"
+			},
+			"fly":
+			{
+				"type" : "FLYING" 					
+			}
+			},
+		
+		
+		"hasDoubleWeek": true,
+		
+		"graphics" :
+		{
+			"animation" : "slothlux/battle/creatures/broccu2.def",
+
+			"map" : "slothlux/map/creatures/broccuadv2.def",
+
+			"iconSmall" : "slothlux/iconssmall/broccu232.bmp",
+
+			"iconLarge" : "slothlux/iconsbig/broccu2big.bmp",
+
+			"timeBetweenFidgets" : 10,
+
+			"animationTime" : {	"walk" : 2.00, "idle" : 10.00, "attack" : 2.00, "flight" : 1.00 }
+		},
+"sound" : 
+		{
+			"attack": "slothlux/broccu_attack.wav",
+			
+			"defend": "slothlux/broccu_defence.wav",
+
+			"killed": "slothlux/broccu_death.wav",
+
+			"move": "slothlux/broccu_move.wav"
+		}	
+
+		
+	}
+}

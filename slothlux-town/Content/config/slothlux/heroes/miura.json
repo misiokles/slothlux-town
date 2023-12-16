@@ -1,0 +1,59 @@
+{
+	"miura" :
+	{
+		"class" : "enlighter",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "slothlux/heroes/miura/icebolt32.bmp",
+			"specialtyLarge" : "slothlux/heroes/miura/icebolt44.bmp",
+			"large" : "slothlux/heroes/miura/miura6458.bmp",
+			"small" : "slothlux/heroes/miura/miura4832.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "hapalops", "min" : 20, "max" : 30 },
+			{ "creature" : "fragaria", "min" :  5, "max" :  10 },
+			{ "creature" : "brocculat", "min" :  3, "max" :  5 }
+		],
+
+		"skills" :
+		[
+			
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Miura",
+			"biography" : "unknown",
+			"specialty" : 
+			{
+				"description" : "Ice Bolt Speciality",
+				"tooltip" : "Bonus: Ice Bolt",
+				"name" : "Ice Bolt"
+			}
+		},
+		"spellbook" :
+		[
+			"iceBolt"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"iceBolt" : {
+					"subtype" : "spell.iceBolt",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

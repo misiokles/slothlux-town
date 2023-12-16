@@ -1,0 +1,748 @@
+{
+	"slothlux" :
+	{
+		"nativeTerrain": "grass",
+		"alignment" : "good",
+		"creatureBackground" :
+		{
+			"120px" : "slothlux/creaturebg120.bmp",
+			"130px" : "slothlux/creaturebg130.bmp"
+		},
+		"name" : "Slothlux",
+		"puzzleMap" : {
+			"prefix" : "slothlux/puzzle-map/SLOTHPUZZLE",
+			"pieces" :
+			[
+				{ "x": 6, "y": 7, "index": 36 },
+				{ "x": 6, "y": 7, "index": 25 },
+				{ "x": 6, "y": 7, "index": 34 },
+				{ "x": 6, "y": 7, "index": 23 },
+				{ "x": 6, "y": 7, "index": 15 },
+				{ "x": 6, "y": 7, "index": 37 },
+				{ "x": 6, "y": 7, "index": 38 },
+				{ "x": 6, "y": 7, "index": 39 },
+				{ "x": 6, "y": 7, "index": 8 },
+				{ "x": 6, "y": 7, "index": 47 },
+				{ "x": 6, "y": 7, "index": 1 },
+				{ "x": 6, "y": 7, "index": 30 },
+				{ "x": 6, "y": 7, "index": 41 },
+				{ "x": 6, "y": 7, "index": 33 },
+				{ "x": 6, "y": 7, "index": 40 },
+				{ "x": 6, "y": 7, "index": 11 },
+				{ "x": 6, "y": 7, "index": 19 },
+				{ "x": 6, "y": 7, "index": 13 },
+				{ "x": 6, "y": 7, "index": 24 },
+				{ "x": 6, "y": 7, "index": 18 },
+				{ "x": 6, "y": 7, "index": 20 },
+				{ "x": 6, "y": 7, "index": 46 },
+				{ "x": 6, "y": 7, "index": 9 },
+				{ "x": 6, "y": 7, "index": 7 },
+				{ "x": 6, "y": 7, "index": 48 },
+				{ "x": 6, "y": 7, "index": 5 },
+				{ "x": 6, "y": 7, "index": 26 },
+				{ "x": 6, "y": 7, "index": 22 },
+				{ "x": 6, "y": 7, "index": 16 },
+				{ "x": 6, "y": 7, "index": 43 },
+				{ "x": 6, "y": 7, "index": 10 },
+				{ "x": 6, "y": 7, "index": 45 },
+				{ "x": 6, "y": 7, "index": 17 },
+				{ "x": 6, "y": 7, "index": 21 },
+				{ "x": 6, "y": 7, "index": 3 },
+				{ "x": 6, "y": 7, "index": 42 },
+				{ "x": 6, "y": 7, "index": 14 },
+				{ "x": 6, "y": 7, "index": 12 },
+				{ "x": 6, "y": 7, "index": 35 },
+				{ "x": 6, "y": 7, "index": 29 },
+				{ "x": 6, "y": 7, "index": 27 },
+				{ "x": 6, "y": 7, "index": 2 },
+				{ "x": 6, "y": 7, "index": 32 },
+				{ "x": 6, "y": 7, "index": 4 },
+				{ "x": 6, "y": 7, "index": 44 },
+				{ "x": 6, "y": 7, "index": 31 },
+				{ "x": 6, "y": 7, "index": 6 },
+				{ "x": 6, "y": 7, "index": 28 }
+			]
+		},
+		"town" :
+		{
+			"mapObject" :
+			{
+				"templates" : {
+					"castle" :  { "animation" : "slothlux/map/castle_map.def" },
+					"citadel" : { "animation" : "slothlux/map/castle_map.def" },
+					"fort"    : { "animation" : "slothlux/map/castle_map.def" },
+					"village" : { "animation" : "slothlux/map/village_map.def" },
+					"capitol" : { "animation" : "slothlux/map/capitol_map.def" }
+				}
+			},
+			
+			"buildings" : {
+				"mageGuild1" :
+				{
+					
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1",
+					"cost" :
+					{
+						"wood" : 5,
+						"ore" : 5,
+						"gold" : 2000
+					},
+					"id" : 0
+				},
+				"mageGuild2" :
+				{
+					
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000
+					},
+					"id" : 1,
+					"upgrades" : "mageGuild1"
+				},
+				"mageGuild3" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000
+					},
+					"id" : 2,
+					"upgrades" : "mageGuild2"
+				},
+								"mageGuild4" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4",
+					"cost" :
+					{
+						"wood": 5,
+                        "mercury": 8,
+                        "ore": 5,
+                        "sulfur": 8,
+                        "crystal": 8,
+                        "gems": 8,
+                        "gold": 1000
+					},
+					"id" : 3,
+					"upgrades" : "mageGuild3"
+				},
+				
+				"tavern" :
+				{
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+					"id" : 5
+				},
+				
+				"fort" :
+				{
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
+					"cost" :
+					{
+						"wood" : 20,
+						"ore" : 20,
+						"gold" : 5000
+					},
+					"id" : 7
+				},
+				"citadel" :
+				{
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 2500
+					},
+					"id" : 8,
+					"upgrades" : "fort"
+				},
+				"castle" :
+				{
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"cost" :
+					{
+						"wood" : 10,
+						"ore" : 10,
+						"gold" : 5000
+					},
+					"id" : 9,
+					"upgrades" : "citadel"
+				},
+				"villageHall" :
+				{
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"id" : 10,
+					"mode" : "auto"
+				},
+				"townHall" :
+				{
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"cost" :
+					{
+						"gold" : 2500
+					},
+					"id" : 11,
+					"requires" : [ "tavern" ],
+					"upgrades" : "villageHall"
+				},
+				"cityHall" :
+				{
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"cost" :
+					{
+						"gold" : 5000
+					},
+					"requires" : [ "allOf", ["mageGuild1"], ["marketplace"], ["blacksmith"] ],
+					"id" : 12,
+					"upgrades" : "townHall"
+				},
+				"capitol" :
+				{
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"cost" :
+					{
+						"gold" : 10000
+					},
+					"id" : 13,
+					"requires" : [ "castle" ],
+					"upgrades" : "cityHall"
+				},
+				"marketplace" :
+				{
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+					"id" : 14
+				},
+				"resourceSilo" :
+				{
+					"description" : "The Resource Silo provides you with an additional +1 crystal each day.",
+					"name" : "Resource Silo",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 5000
+					},
+					"requires" : [ "marketplace" ],
+					"id" : 15
+				},
+				"blacksmith" :
+				{
+					"description" : "The Blacksmith provides your armies with Ammo Cart.",
+					"name" : "Blacksmith",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 1000
+					},
+					"id" : 16
+				},
+				
+				"horde1" :
+				{
+					"description" : "The Extended Shrubs increase small sloths production by 6 per week.",
+					"name" : "Extended Shrubs",
+					"cost" : 
+					{
+						"gold" : 1000
+					},
+					"id" : 18,
+					"upgrades" : "dwellingLvl1"	
+				},
+				"horde1Upgr" :
+				{
+					"description" : "The Extended Shrubs increase small sloths production by 6 per week.",
+					"name" : "Extended Shrubs",
+					"cost" : 
+					{
+						"gold" : 1000
+					},
+					"requires" : ["horde1"],
+					"id" : 19,
+					"upgrades" : "dwellingUpLvl1",
+					"mode" : "auto"
+				},
+				"special1" : 
+				{
+					"description" : "Increase experience for each LAFE hero visiting town +1000 (not working yet).",
+					"name" : "LFHQ",
+					"cost" : 
+					{
+					"wood": 5,
+					"ore": 5,
+					"gold" : 1000
+					},
+					"id" : 17
+				},
+				
+				"special2": {
+				"description": "Increase luck and morale for every visiting hero +1 each until the end of the week (not working yet).",
+				"name": "Blessed Trees",
+				"cost": {
+				"wood": 5,
+				"ore": 5,
+				"gold": 1000
+				},
+					"id": 21
+				},	
+				
+				
+				"grail" :
+				{
+					"description" : "The presence of the Imperial Statue increases weekly creature generation by 50%, provides your empire with an additional 5000 gold each day, and increases all primary skills by 3 each when defending against a siege.",
+					"name" : "Imperial Statue",
+					"id" : 26,
+					"mode" : "grail"
+				},
+				"dwellingLvl1" :
+				{
+					"description" : "The Sloth Shrubs allows you to recruit Hapalopses.",
+					"name" : "Sloth Shrubs",
+					"cost" : 
+					{
+						"gold" : 500,
+						"ore" : 5
+					},
+					"requires" : [ "fort" ],
+					"id" : 30
+				},
+				"dwellingLvl2" :
+				{
+					"description" : "The Fragaria Field allows you to recruit Fragarias.",
+					"name" : "Fragaria Field",
+					"cost" : 
+					{
+						"gold" : 1000,
+            "ore": 5,
+            "wood": 5
+					},
+					"requires" : [ "dwellingLvl1" ],
+					"id" : 31
+				},
+				"dwellingLvl3" :
+				{
+					"description" : "The Brocculat Portal allows you to recruit Brocculats.",
+					"name" : "Brocculat Portal",
+					"cost" : 
+					{
+						"wood": 0,
+                        "mercury": 1,
+                        "ore": 5,
+                        "sulfur": 1,
+                        "crystal": 1,
+                        "gems": 1,
+                        "gold": 2000
+					},
+					"requires" : [ "dwellingLvl2" ],
+					"id" : 32
+				},
+				"dwellingLvl4" :
+				{
+					"description" : "The Sphere Generator allows you to recruit Spheres.",
+					"name" : "Sphere Generator",
+					"cost" : 
+					{
+						"wood": 0,
+                        "mercury": 1,
+                        "ore": 5,
+                        "sulfur": 1,
+                        "crystal": 1,
+                        "gems": 1,
+                        "gold": 2000
+					},
+					"requires" : [ "allOf", ["mageGuild1"], ["dwellingLvl3"] ],
+					"id" : 33
+				},
+				"dwellingLvl5" :
+				{
+					"description" : "The Sloth Brook allows you to recruit Mylodons.",
+					"name" : "Sloth Brook",
+					"cost" : 
+					{
+					
+						"wood": 5,
+						"gold" : 3000,
+						"ore" : 5,
+						"gems":5
+					},
+					"requires" : ["dwellingLvl4"],
+					"id" : 34
+				},
+				"dwellingLvl6" :
+				{
+					"description" : "The Beanoid Portal allows you to recruit Beanoids.",
+					"name" : "Beanoid Portal",
+					"cost" : 
+					{
+						"mercury": 2,
+                        "ore": 5,
+                        "sulfur": 2,
+                        "crystal": 2,
+                        "gems": 2,
+                        "gold": 4000
+					},
+					"requires" : [ "dwellingLvl5" ],
+					"id" : 35
+				},
+				"dwellingLvl7" :
+				{
+					"description" : "The Sloth Spire allows you to recruit Grand Sloths.",
+					"name" : "Sloth Spire",
+					"cost" : 
+					{
+						"gold": 10000,
+						"wood": 10,
+						"ore": 10,
+						"crystal" : 10
+					},
+					"requires" : [ "dwellingLvl6" ],
+					"id" : 36
+				},
+				"dwellingUpLvl1" :
+				{
+					"description" : "The Upg. Sloth Shrubs allows you to recruit Megalocnuses.",
+					"name" : "Upg. Sloth Srubs",
+					"cost" :
+					{
+						"gold" : 1000
+					},
+					"id" : 37,
+					"requires" : ["dwellingLvl1"],
+					"upgrades" : "dwellingLvl1"
+				},
+				"dwellingUpLvl2" :
+				{
+					"description" : "The Strawberry Field allows you to recruit Strawberries.",
+					"name" : "Straberry Field",
+					"cost" : 
+					{
+						"gold" : 1000,
+						"gems": 5,
+            		},
+					"id" : 38,
+					"requires" :[ "allOf", ["mageGuild1"], ["dwellingLvl2"] ],
+					"upgrades" : "dwellingLvl2"
+				},
+				"dwellingUpLvl3" :
+				{
+					"description" : "The Upg. Brocculat Portal allows you to recruit Greater Brocculats.",
+					"name" : "Upg. Brocculat Portal",
+					"cost" : 
+					{
+						"mercury": 2,
+                        "sulfur": 2,
+                        "crystal": 2,
+                        "gems": 2,
+                        "gold": 2000
+					},
+					"id" : 39,
+					"requires" : [ "allOf", ["mageGuild2"], ["dwellingLvl3"] ],
+					"upgrades" : "dwellingLvl3"
+				},
+				"dwellingUpLvl4" :
+				{
+					"description" : "The Upg. Sphere Generator.",
+					"name" : "Upg. Sphere Generator",
+					"cost" : 
+					{
+						"gold" : 2500,
+						"ore": 5,
+						"mercury": 5
+					},
+					"id" : 40,
+					"requires" : [ "allOf", ["mageGuild2"], ["dwellingLvl4"] ],
+					"upgrades" : "dwellingLvl4"
+				},
+				"dwellingUpLvl5" :
+				{
+					"description" : "The Upg. Sloth Brook allows you to recruit Paramylodons.",
+					"name" : "Upg. Sloth Brook",
+					"cost" : 
+					{
+						"gold" : 3000,
+						"gems": 10
+					},
+					"id" : 41,
+					"requires" : [ "dwellingLvl5" ],
+					"upgrades" : "dwellingLvl5"
+				},
+				"dwellingUpLvl6" :
+				{
+                    "description" : "The Upg. Beanoid Portal allows you to recruit Purple Beanoids.",
+					"name" : "Upg. Black Wood",
+					"cost" : 
+					{
+						"gold" : 4000,
+						"mercury": 3,
+						"crystal": 3,
+						"gems": 3,
+						"sulfur": 3
+					},
+					"id" : 42,
+					"requires" : [ "allOf", ["mageGuild2"], ["dwellingLvl6"] ],
+					"upgrades" : "dwellingLvl6"
+				},
+				"dwellingUpLvl7" :
+				{
+					"description" : "The Upg. Sloth Spire allows you to recruit Royal Sloths.",
+					"name" : "Upg. Sloth Spire",
+					"cost" : 
+					{
+						"gold": 20000,
+						"wood": 10,
+						"ore" : 10,
+						"crystal" : 20
+					},
+					"id" : 43,
+					"requires" : [ "dwellingLvl7" ],
+					"upgrades" : "dwellingLvl7"
+				}				
+			},
+			
+			"structures" :
+			{
+				
+				"mageGuild1":     { "animation" : "slothlux/town-screen/buildings/TBMSmage.def", "x" : 0, "y" : 0,  "border" : "slothlux/town-screen/buildings-border/TOMSmage.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSmage.bmp" },
+				"mageGuild2":     { "animation" : "slothlux/town-screen/buildings/TBMSmag2.def", "x" : 0, "y" : 0,   "border" : "slothlux/town-screen/buildings-border/TOMSmag2.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSmag2.bmp" },
+				"mageGuild3":     { "animation" : "slothlux/town-screen/buildings/TBMSmag3.def", "x" : 0, "y" : 0,  "border" : "slothlux/town-screen/buildings-border/TOMSmag3.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSmag3.bmp" },
+				"mageGuild4":     { "animation" : "slothlux/town-screen/buildings/TBMSmag4.def", "x" : 0, "y" : 0,   "border" : "slothlux/town-screen/buildings-border/TOMSmag4.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSmag4.bmp" },
+				"tavern":         { "animation" : "slothlux/town-screen/buildings/TBMStvrn.def", "x" : 0, "y" : 0,   "border" : "slothlux/town-screen/buildings-border/TOMStvrn.bmp", "area" : "slothlux/town-screen/buildings-area/TZMStvrn.bmp" },
+				"fort":           { "animation" : "slothlux/town-screen/buildings/TBMScstl.def", "x" : 0, "y" : 0,            "border" : "slothlux/town-screen/buildings-border/TOMScstl.bmp", "area" : "slothlux/town-screen/buildings-area/TZMScstl.bmp" },
+				"citadel":        { "animation" : "slothlux/town-screen/buildings/TBMScas2.def", "x" : 0, "y" : 0,   "border" : "slothlux/town-screen/buildings-border/TOMScas2.bmp", "area" : "slothlux/town-screen/buildings-area/TZMScas2.bmp" },
+				"castle":         { "animation" : "slothlux/town-screen/buildings/TBMScas3.def", "x" : 0, "y" : 0,   "border" : "slothlux/town-screen/buildings-border/TOMScas3.bmp", "area" : "slothlux/town-screen/buildings-area/TZMScas3.bmp" },
+				"villageHall":    { "animation" : "slothlux/town-screen/buildings/TBMShall.def", "x" : 0, "y" : 0,          "border" : "slothlux/town-screen/buildings-border/TOMShall.bmp", "area" : "slothlux/town-screen/buildings-area/TZMShall.bmp" },
+				"townHall":       { "animation" : "slothlux/town-screen/buildings/TBMShal2.def", "x" : 0, "y" : 0,           "border" : "slothlux/town-screen/buildings-border/TOMShal2.bmp", "area" : "slothlux/town-screen/buildings-area/TZMShal2.bmp" },
+				"cityHall":       { "animation" : "slothlux/town-screen/buildings/TBMShal3.def", "x" : 0, "y" : 0,            "border" : "slothlux/town-screen/buildings-border/TOMShal3.bmp", "area" : "slothlux/town-screen/buildings-area/TZMShal3.bmp" },
+				"capitol":        { "animation" : "slothlux/town-screen/buildings/TBMShal4.def", "x" : 0, "y" : 0,           "border" : "slothlux/town-screen/buildings-border/TOMShal4.bmp", "area" : "slothlux/town-screen/buildings-area/TZMShal4.bmp" },
+				"marketplace":    { "animation" : "slothlux/town-screen/buildings/TBMSmark.def", "x" : 0, "y" : 0,           "border" : "slothlux/town-screen/buildings-border/TOMSmark.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSmark.bmp" },
+				"resourceSilo":   { "animation" : "slothlux/town-screen/buildings/TBMSsilo.def", "x" : 0, "y" : 0,      "border" : "slothlux/town-screen/buildings-border/TOMSsilo.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSsilo.bmp" },
+				"blacksmith":     { "animation" : "slothlux/town-screen/buildings/TBMSblak.def", "x" : 0, "y" : 0,           "border" : "slothlux/town-screen/buildings-border/TOMSblak.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSblak.bmp" },
+				"special1":       { "animation" : "slothlux/town-screen/buildings/TBMSspec.def", "x" : 0, "y" : 0, 		 "border" : "slothlux/town-screen/buildings-border/TOMSspec.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSspec.bmp" },
+				"horde1":         { "animation" : "slothlux/town-screen/buildings/TBMShrd1.def", "x" : 0, "y" : 0,    "border" : "slothlux/town-screen/buildings-border/TOMShrd1.bmp", "area" : "slothlux/town-screen/buildings-area/TZMShrd1.bmp", "hidden" : true, "builds" : "horde1" },
+				"horde1Upgr":     { "animation" : "slothlux/town-screen/buildings/TBMShrd2.def", "x" : 0, "y" : 0,  "border" : "slothlux/town-screen/buildings-border/TOMShrd2.bmp", "area" : "slothlux/town-screen/buildings-area/TZMShrd2.bmp", "hidden" : true, "builds" : "horde1" },
+				"special2":       { "animation" : "slothlux/town-screen/buildings/TBMSspe2.def", "x" : 0, "y" : 0,  "border" : "slothlux/town-screen/buildings-border/TOMSspe2.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSspe2.bmp" },
+				"grail":          { "animation" : "slothlux/town-screen/buildings/TBMSholy.def", "x" : 0, "y" : 0,   "border" : "slothlux/town-screen/buildings-border/TOMSholy.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSholy.bmp" },
+				"dwellingLvl1":   { "animation" : "slothlux/town-screen/buildings/TBMSdw1.def", "x" : 0, "y" : 0,      "border" : "slothlux/town-screen/buildings-border/TOMSdw1.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSdw1.bmp" },
+				"dwellingLvl2":   { "animation" : "slothlux/town-screen/buildings/TBMSdw2.def", "x" : 0, "y" : 0,            "border" : "slothlux/town-screen/buildings-border/TOMSdw2.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSdw2.bmp" },
+				"dwellingLvl3":   { "animation" : "slothlux/town-screen/buildings/TBMSdw3.def", "x" : 0, "y" : 0,     "border" : "slothlux/town-screen/buildings-border/TOMSdw3.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSdw3.bmp" },
+				"dwellingLvl4":   { "animation" : "slothlux/town-screen/buildings/TBMSdw4.def", "x" : 0, "y" : 0,            "border" : "slothlux/town-screen/buildings-border/TOMSdw4.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSdw4.bmp" },
+				"dwellingLvl5":   { "animation" : "slothlux/town-screen/buildings/TBMSdw5.def", "x" : 0, "y" : 0,     "border" : "slothlux/town-screen/buildings-border/TOMSdw5.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSdw5.bmp" },
+				"dwellingLvl6":   { "animation" : "slothlux/town-screen/buildings/TBMSdw6.def", "x" : 0, "y" : 0,     "border" : "slothlux/town-screen/buildings-border/TOMSdw6.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSdw6.bmp" },
+				"dwellingLvl7":   { "animation" : "slothlux/town-screen/buildings/TBMSdw7.def", "x" : 0, "y" : 0,     "border" : "slothlux/town-screen/buildings-border/TOMSdw7.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSdw7.bmp" },
+				"dwellingUpLvl1": { "animation" : "slothlux/town-screen/buildings/TBMSup1.def", "x" : 0, "y" : 0,           "border" : "slothlux/town-screen/buildings-border/TOMSup1.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSup1.bmp" },
+				"dwellingUpLvl2": { "animation" : "slothlux/town-screen/buildings/TBMSup2.def", "x" : 0, "y" : 0,            "border" : "slothlux/town-screen/buildings-border/TOMSup2.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSup2.bmp" },
+				"dwellingUpLvl3": { "animation" : "slothlux/town-screen/buildings/TBMSup3.def", "x" : 0, "y" : 0,      "border" : "slothlux/town-screen/buildings-border/TOMSup3.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSup3.bmp" },
+				"dwellingUpLvl4": { "animation" : "slothlux/town-screen/buildings/TBMSup4.def", "x" : 0, "y" : 0,            "border" : "slothlux/town-screen/buildings-border/TOMSup4.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSup4.bmp" },
+				"dwellingUpLvl5": { "animation" : "slothlux/town-screen/buildings/TBMSup5.def", "x" : 0, "y" : 0,       "border" : "slothlux/town-screen/buildings-border/TOMSup5.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSup5.bmp" },
+				"dwellingUpLvl6": { "animation" : "slothlux/town-screen/buildings/TBMSup6.def", "x" : 0, "y" : 0,      "border" : "slothlux/town-screen/buildings-border/TOMSup6.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSup6.bmp" },
+				"dwellingUpLvl7": { "animation" : "slothlux/town-screen/buildings/TBMSup7.def", "x" : 0, "y" : 0,      "border" : "slothlux/town-screen/buildings-border/TOMSup7.bmp", "area" : "slothlux/town-screen/buildings-area/TZMSup7.bmp" }
+			},
+
+			
+			"musicTheme" : "music/factions/BreakInTheClouds.mp3",
+			"defaultTavern" : 5,
+			"tavernVideo" : "TAVERN.BIK",
+			"guildBackground" : "TPMAGE.bmp",
+			"townBackground": "slothlux/town-screen/slothlux_ts.bmp",
+			"guildWindow": "slothlux/town-screen/mgbg.bmp",
+			"buildingsIcons": "slothlux/town-hall.def",
+			"hallBackground": "TPTHBKCS",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4" ], [ "special1" ] ],
+				[  [ "horde1", "horde1Upgr" ], [ "special2" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
+			],
+			"creatures" :
+			[
+				["hapalops", "megalocnus"],
+				["fragaria", "strawberry"],
+				["brocculat", "greaterBrocculat"],
+				["sphere", "largeSphere"],
+				["mylodon", "paramylodon"],
+				["blueBeanoid", "purpleBeanoid"],
+				["grandSloth", "royalSloth"]
+			],
+			"horde" : [ 0, 3 ],
+			"icons" : {
+				"village" : {
+					"normal" : {"small" : "slothlux/icons/hall-small1.bmp", "large" : "slothlux/icons/hall-big1.bmp" },
+					"built"  : {"small" : "slothlux/icons/hall-small2.bmp", "large" : "slothlux/icons/hall-big2.bmp" }
+				},
+				"fort" : {
+					"normal" : {"small" : "slothlux/icons/fort-small1.bmp", "large" : "slothlux/icons/fort-big1.bmp" },
+					"built"  : {"small" : "slothlux/icons/fort-small2.bmp", "large" : "slothlux/icons/fort-big2.bmp" }
+				}
+			},
+			"mageGuild" : 4,
+			"warMachine" : "ammoCart",
+			"moatDamage" : 70,
+			"moatHexes" : [ 12, 27, 41, 56, 70, 84, 100, 116, 131, 147, 162 ],
+			"names" : [
+				"Lavenix",
+				"Lavium",
+				"Sloth Hills",
+				"Sloth River",
+				"Sloth Woods",
+				"Sloth Mills",
+				"Sloth Palace",
+				"Sloth Falls",
+				"Sloth Springs",
+				"Sloth Wells",
+				"Lavium",
+				"Dorado",
+				"Lanata",
+				"Nimmoi",
+				"Pinnata",
+				"Slothium",
+				"Luxilla",
+				"Lavandula",
+				"Citria"
+							
+			],
+			"primaryResource" : "crystal",
+			
+			
+			"guildSpells" : {
+				"bless"          : 7,
+				"bloodlust"      : 3,
+				"cure"           : 7,
+				"curse"          : 3,
+				"dispel"         : 7,
+				"haste"          : 10,
+				"magicArrow"     : 10,
+				"protectAir"     : 7,
+				"protectFire"    : 6,
+				"shield"         : 7,
+				"slow"           : 7,
+				"stoneSkin"      : 7,
+				"summonBoat"     : 6,
+				"viewAir"        : 7,
+				"viewEarth"      : 6,
+				
+				"blind"    		 : 5,
+				"disguise"       : 5,
+				"disruptingRay"  : 10,
+				"fortune"        : 15,
+				"iceBolt"        : 10,
+				"lightningBolt"  : 15,
+				"precision"      : 10,
+				"quicksand"      : 5,
+				"removeObstacle" : 5,
+				"scuttleBoat"    : 5,
+				"visions"        : 5,
+				"weakness"       : 10,
+				
+				"airShield"      : 10,
+				"antiMagic"      : 10,
+				"earthquake"     : 5,
+				"fireball"       : 5,
+				"forceField"     : 5,
+				"forgetfulness"  : 10,
+				"frostRing"      : 10,
+				"hypnotize"      : 5,
+				"landMine"       : 3,
+				"mirth"          : 15,
+				"misfortune"     : 2,
+				"protectEarth"   : 5,
+				"protectWater"   : 5,
+				"teleport"       : 10,
+
+				"chainLightning" : 12,
+				"clone"          : 15,
+				"counterstrike"  : 12,
+				"meteorShower"   : 10,
+				"prayer"         : 15,
+				"resurrection"   : 12,
+				"sorrow"         : 5,
+				"townPortal"     : 12,
+				"waterWalk"      : 7,
+
+				
+			},
+
+			"siege" : {
+				"shooter" : "blueBeanoid",
+				"imagePrefix" : "slothlux/siege/SGVX",
+				"gate" :
+				{
+					"arch" : { "x" : 518, "y" : 149 },
+					"gate" : { "x" : 446, "y" : 223 }
+				},
+				"moat" :
+				{
+					"bank" : { "x" : 471, "y" : 80 },
+					"moat" : { "x" : 471, "y" : 80 }
+				},
+				"static" :
+				{
+					"background" : { "x" : 645, "y" : 44 },
+					"bottom" : { "x" : 645, "y" : 44 },
+					"top" : { "x" : 645, "y" : 44 }
+				},
+				"towers" :
+				{
+					"bottom" :
+					{
+						"battlement" : { "x" : 679, "y" : 518 },
+						"creature" : { "x" : 450, "y" : 300 },
+						"tower" : { "x" : 679, "y" : 518, "z" : -1 }
+					},
+					"keep" :
+					{
+						"battlement" : { "x" : 764, "y" : 178 },
+						"creature" : { "x" : 530, "y" : -60 },
+						"tower" : { "x" : 764, "y" : 178,"z" : -1 }
+					},
+					"top" :
+					{
+						"battlement" : { "x" : 615, "y" : 24 },
+						"creature" : { "x" : 380, "y" : -200 },
+						"tower" : { "x" : 615, "y" : 24, "z" : -1 }
+					}
+				},
+				"walls" :
+				{
+					"bottom" : { "x" : 577, "y" : 391 },
+					"bottomMid" : { "x" : 526, "y" : 316 },
+					"upper" : { "x" : 585, "y" : 57 },
+					"upperMid" : { "x" : 543, "y" : 107 }
+				}
+			}
+		}
+	}
+}

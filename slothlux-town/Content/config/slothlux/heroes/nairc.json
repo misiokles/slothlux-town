@@ -1,0 +1,88 @@
+{
+	"nairc" :
+	{
+		"class" : "forthrunner",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "slothlux/heroes/nairc/beanoid32.bmp",
+			"specialtyLarge" : "slothlux/heroes/nairc/beanoid44.bmp",
+			"large" : "slothlux/heroes/nairc/nairc6458.bmp",
+			"small" : "slothlux/heroes/nairc/nairc4832.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "hapalops", "min" : 20, "max" : 30 },
+			{ "creature" : "fragaria", "min" :  5, "max" :  10 },
+			{ "creature" : "brocculat", "min" : 3, "max" :  5 }
+		],
+
+		"skills" :
+		[
+			
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Nairc",
+			"biography" : "unknown",
+			"specialty" : 
+			{
+				"description" : "Beanoids get extra attack and defence growing with level",
+				"tooltip" : "Bonus: Beanoids",
+				"name" : "Beanoids"
+			}
+		},
+		
+		"specialty": 
+		[
+			{
+				"growsWithLevel": true, 
+				"bonuses":
+				[
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 0,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["blueBeanoid", true]
+							}
+						]
+					},
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["blueBeanoid", true]
+							}
+						]
+					},
+					{
+						"type": "STACKS_SPEED",
+						"val": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["blueBeanoid", true]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

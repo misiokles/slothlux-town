@@ -1,0 +1,88 @@
+{
+	"yukar" :
+	{
+		"class" : "forthrunner",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "slothlux/heroes/yukar/smallsloth32.bmp",
+			"specialtyLarge" : "slothlux/heroes/yukar/smallsloth44.bmp",
+			"large" : "slothlux/heroes/yukar/yukar6458.bmp",
+			"small" : "slothlux/heroes/yukar/yukar4832.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "hapalops", "min" : 20, "max" : 30 },
+			{ "creature" : "hapalops", "min" :  20, "max" :  30 },
+			{ "creature" : "hapalops", "min" : 20, "max" :  30 }
+		],
+
+		"skills" :
+		[
+			
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			},
+			{
+				"level" : "basic",
+				"skill" : "learning"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Yukar",
+			"biography" : "unknown",
+			"specialty" : 
+			{
+				"description" : "extra attack and defence growing with level",
+				"tooltip" : "Bonus: Small Sloths",
+				"name" : "Small Sloths"
+			}
+		},
+		
+		"specialty": 
+		[
+			{
+				"growsWithLevel": true, 
+				"bonuses":
+				[
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 0,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["hapalops", true]
+							}
+						]
+					},
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["hapalops", true]
+							}
+						]
+					},
+					{
+						"type": "STACKS_SPEED",
+						"val": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["hapalops", true]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,88 @@
+{
+	"eidyon" :
+	{
+		"class" : "forthrunner",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "slothlux/heroes/eidyon/mylosloth32.bmp",
+			"specialtyLarge" : "slothlux/heroes/eidyon/mylosloth44.bmp",
+			"large" : "slothlux/heroes/eidyon/eidyon6458.bmp",
+			"small" : "slothlux/heroes/eidyon/eidyon4832.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "hapalops", "min" : 20, "max" : 30 },
+			{ "creature" : "fragaria", "min" :  5, "max" :  10 },
+			{ "creature" : "brocculat", "min" : 3, "max" :  5 }
+		],
+
+		"skills" :
+		[
+			
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Eidyon",
+			"biography" : "unknown",
+			"specialty" : 
+			{
+				"description" : "Mylodons get extra attack and defence growing with level",
+				"tooltip" : "Bonus: Mylodons",
+				"name" : "Mylodons"
+			}
+		},
+		
+		"specialty": 
+		[
+			{
+				"growsWithLevel": true, 
+				"bonuses":
+				[
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 0,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["mylodon", true]
+							}
+						]
+					},
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["mylodon", true]
+							}
+						]
+					},
+					{
+						"type": "STACKS_SPEED",
+						"val": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["mylodon", true]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

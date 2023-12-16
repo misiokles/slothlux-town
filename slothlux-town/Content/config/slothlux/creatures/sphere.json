@@ -1,0 +1,125 @@
+{
+	"sphere" : 
+	{
+		"name" : { "singular" : "Sphere", "plural" : "Spheres" },
+		
+		"level" : 4,
+
+		"special" : false,
+		
+		"faction" : "slothlux", 
+		
+		"cost" : { "gold" : 350 },
+		
+		"fightValue" : 500,
+		
+		"aiValue" : 500,
+		
+		"growth" : 4,
+		
+//		"hordeGrowth" : 1,
+	
+		"attack" : 4,
+		
+		"defense" : 6,
+		
+		"hitPoints" : 30,
+		
+		"speed" : 6,
+		
+		"damage" : { "min" : 2,"max" : 4},
+		"advMapAmount" : { "min" : 10,"max" : 30},
+
+		"upgrades" :
+		["largeSphere"],
+		
+		
+"sound" : 
+		{
+			"attack": "slothlux/sphere_attack.wav",
+			
+			"defend": "slothlux/sphere_defence.wav",
+
+			"killed": "slothlux/sphere_death.wav",
+
+			"move": "slothlux/sphere_move.wav"
+			
+//			"cast": "slothlux/sphere_cast.wav"
+
+			
+		},		
+
+		
+		
+"abilities" :
+		{
+		"Mind Immune" :
+			{
+			"type" : "MIND_IMMUNITY"
+			},
+			"fly":
+			{
+				"type" : "FLYING" 					
+			},
+			"Attacks all adjacent units":
+			{
+				"type" : "ATTACKS_ALL_ADJACENT" 					
+			},
+			"No Retal" :
+			{
+			"type" : "BLOCKS_RETALIATION"
+			},
+			"Magic Immune":
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 100
+			},
+			"noMorale": {
+			"type": "NO_MORALE"
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 100
+			},
+			"enchant" :
+            {
+                "type" : "CREATURE_ENCHANT_POWER",
+                "val" : 1
+            },
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 30
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.magicArrow",
+				"val" : 3
+			}
+			
+			},
+		
+		
+		"hasDoubleWeek": true,
+		
+		"graphics" :
+		{
+			"animation" : "slothlux/battle/creatures/sphere.def",
+
+			"map" : "slothlux/map/creatures/sphereadv.def",
+
+			"iconSmall" : "slothlux/iconssmall/sphere31.bmp",
+
+			"iconLarge" : "slothlux/iconsbig/sphere58x64.bmp",
+
+			"timeBetweenFidgets" : 10,
+
+			"animationTime" : {	"walk" : 2.00, "idle" : 10.00, "attack" : 2.00, "flight" : 1.00, "cast" : 0.1 }
+		}
+	
+
+		
+	}
+}

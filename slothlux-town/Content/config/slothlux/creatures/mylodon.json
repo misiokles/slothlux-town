@@ -1,0 +1,82 @@
+{
+	"mylodon" : 
+	{
+		"name" : { "singular" : "Mylodon", "plural" : "Mylodons" },
+		
+		"level" : 5,
+
+		"special" : false,
+		
+		"faction" : "slothlux", 
+		
+		"cost" : { "gold" : 500 },
+		
+		"fightValue" : 808,
+		
+		"aiValue" : 882,
+		
+		"growth" : 3,
+		
+//		"hordeGrowth" : 1,
+	
+		"attack" : 12,
+		
+		"defense" : 10,
+		
+		"hitPoints" : 50,
+		
+		"speed" : 7,
+		
+		"damage" : { "min" : 10,"max" : 14},
+		"advMapAmount" : { "min" : 5,"max" : 8},
+
+		"upgrades" :
+		["paramylodon"],
+
+		"doubleWide" : true,
+		
+"abilities" :
+		{
+		"slowImmune": {
+				"type" : "SPELL_IMMUNITY",
+				"subtype":  "spell.slow",
+				"addInfo":0
+				},
+		"merry": {
+				"subtype" : "spell.mirth",
+				"type" : "ENCHANTED",
+				"val" : 1,
+				}
+		},
+		
+		"hasDoubleWeek": true,
+		
+		"graphics" :
+		{
+			"animation" : "slothlux/battle/creatures/mylodon.def",
+
+			"map" : "slothlux/map/creatures/advmylodon.def",
+
+			"iconSmall" : "slothlux/iconssmall/mylodon32.bmp",
+
+			"iconLarge" : "slothlux/iconsbig/mylodon58x64.bmp",
+
+			"timeBetweenFidgets" : 10,
+
+			"animationTime" : {	"walk" : 2.00, "idle" : 10.00, "attack" : 2.00, "flight" : 1.00 }
+		},
+
+		"sound" : 
+		{
+			"attack": "slothlux/hapalops_attack.wav",
+			
+			"defend": "slothlux/hapalops_defence.wav",
+
+			"killed": "slothlux/hapalops_death.wav",
+
+			"move": "slothlux/hapalops_move.wav",
+
+			"wince": "slothlux/hapalops_wince.wav"
+		}
+	}
+}

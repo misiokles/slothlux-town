@@ -1,0 +1,102 @@
+{
+	"viridis" :
+	{
+		"class" : "enlighter",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "slothlux/heroes/viridis/sphere32.bmp",
+			"specialtyLarge" : "slothlux/heroes/viridis/sphere44.bmp",
+			"large" : "slothlux/heroes/viridis/viridis6458.bmp",
+			"small" : "slothlux/heroes/viridis/viridis4832.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "hapalops", "min" : 20, "max" : 30 },
+			{ "creature" : "fragaria", "min" :  5, "max" :  10 },
+			{ "creature" : "brocculat", "min" : 3, "max" :  5 }
+		],
+
+		"skills" :
+		[
+			
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Viridis",
+			"biography" : "unknown",
+			"specialty" : 
+			{
+				"description" : "Spheres get extra attack and defence growing with level",
+				"tooltip" : "Bonus: Spheres",
+				"name" : "Spheres"
+			}
+		},
+		"spellbook" :
+		[
+			"antiMagic"
+		],
+		"specialty": 
+		[
+			{
+				"growsWithLevel": true, 
+				"bonuses":
+				[
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 0,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sphere", true]
+							}
+						]
+					},
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sphere", true]
+							}
+						]
+					},
+						{
+						"type": "PRIMARY_SKILL",
+						"subtype": 2,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sphere", true]
+							}
+						]
+					},
+					{
+						"type": "STACKS_SPEED",
+						"val": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["sphere", true]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

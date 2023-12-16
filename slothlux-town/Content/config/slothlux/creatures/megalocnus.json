@@ -1,0 +1,63 @@
+{
+	"megalocnus" : 
+	{
+		"name" : { "singular" : "Megalocnus", "plural" : "Megalocnuses" },
+		
+		"level" : 1,
+
+		"special" : false,
+		
+		"faction" : "slothlux", 
+		
+		"cost" : { "gold" : 70 },
+		
+		"fightValue" : 109,
+		
+		"aiValue" : 99,
+		
+		"growth" : 14,
+		
+//		"hordeGrowth" : 7,
+	
+		"attack" : 6,
+		
+		"defense" : 4,
+		
+		"hitPoints" : 8,
+		
+		"speed" : 5,
+		
+		"damage" : { "min" : 1,"max" : 3},
+		"advMapAmount" : { "min" : 20,"max" : 50},
+
+		"hasDoubleWeek": true,
+		
+		"graphics" :
+		{
+			"animation" : "slothlux/battle/creatures/megalocnus.def",
+
+			"map" : "slothlux/map/creatures/advmegalocnus.def",
+
+			"iconSmall" : "slothlux/iconssmall/megalocnus32.bmp",
+
+			"iconLarge" : "slothlux/iconsbig/megalocnus58x64.png",
+
+			"timeBetweenFidgets" : 10,
+
+			"animationTime" : {	"walk" : 2.00, "idle" : 10.00, "attack" : 2.00,"flight" : 1.00 }
+		},
+
+		"sound" : 
+		{
+			"attack": "slothlux/hapalops_attack.wav",
+			
+			"defend": "slothlux/hapalops_defence.wav",
+
+			"killed": "slothlux/hapalops_death.wav",
+
+			"move": "slothlux/hapalops_move.wav",
+
+			"wince": "slothlux/hapalops_wince.wav"
+		}
+	}
+}

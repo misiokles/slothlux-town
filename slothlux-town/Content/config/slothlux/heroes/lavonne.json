@@ -1,0 +1,61 @@
+{
+	"lavonne" :
+	{
+		"class" : "enlighter",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "slothlux/heroes/lavonne/mirth32.bmp",
+			"specialtyLarge" : "slothlux/heroes/lavonne/mirth44.bmp",
+			"large" : "slothlux/heroes/lavonne/lavonne6458.bmp",
+			"small" : "slothlux/heroes/lavonne/lavonne4832.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "hapalops", "min" : 20, "max" : 30 },
+			{ "creature" : "fragaria", "min" :  5, "max" :  10 },
+			{ "creature" : "brocculat", "min" :  3, "max" :  5 }
+		],
+
+		"skills" :
+		[
+			
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Lavonne",
+			"biography" : "unknown",
+			"specialty" : 
+			{
+				"description" : "Mirth",
+				"tooltip" : "Bonus: Mirth",
+				"name" : "Mirth"
+			}
+		},
+		"spellbook" :
+		[
+			"mirth"
+		],
+		"specialty": 
+		[
+			{
+				"bonuses":
+				[
+					{
+						"type": "MAXED_SPELL",
+						"subtype": "spell.mirth"
+					}
+				]
+			}
+		]
+	}
+}

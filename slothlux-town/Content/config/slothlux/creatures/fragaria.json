@@ -1,0 +1,109 @@
+{
+	"fragaria" : 
+	{
+		"name" : { "singular" : "Fragaria", "plural" : "Fragarias" },
+		
+		"level" : 2,
+
+		"special" : false,
+		
+		"faction" : "slothlux", 
+		
+		"cost" : { "gold" : 120 },
+		
+		"fightValue" : 120,
+		
+		"aiValue" : 120,
+		
+		"growth" : 8,
+		
+//		"hordeGrowth" : 1,
+	
+		"attack" : 6,
+		
+		"defense" : 4,
+		
+		"hitPoints" : 10,
+		
+		"speed" : 7,
+		
+		"damage" : { "min" : 2,"max" : 4},
+		"advMapAmount" : { "min" : 25,"max" : 100},
+		
+		"upgrades" :
+		["strawberry"],
+
+		"shots" : 12,	
+
+
+		"hasDoubleWeek": true,
+		
+		"graphics" :
+		
+		{
+			"animation" : "slothlux/battle/creatures/fragaria.def",
+
+			"map" : "slothlux/map/creatures/fragariadv.def",
+
+			"iconSmall" : "slothlux/iconssmall/fragaria32.bmp",
+
+			"iconLarge" : "slothlux/iconsbig/fragariabig.bmp",
+
+			"timeBetweenFidgets" : 10,
+
+			"animationTime" : {	"walk" : 2.00, "idle" : 10.00, "attack" : 2.00, "flight" : 1.00 }, 
+
+			"missile" :
+			{
+				"projectile" : "slothlux/battle/creatures/pberries.def",
+				"attackClimaxFrame" : 0,
+				"offset" :
+				{
+					"upperX" : 25,
+					"upperY" : -40,
+					"middleX" : 25,
+					"middleY" : -40,
+					"lowerX" : 25,
+					"lowerY" : -40
+				},
+				"frameAngles" : [ -90, -45, 0, 45, 90]
+		},
+		
+			
+			},
+
+			"abilities" :
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"Mind Immune" :
+			{
+			"type" : "MIND_IMMUNITY"
+			}
+			,
+					
+			"freeShooting":
+			{
+				"type" : "FREE_SHOOTING" 					
+			}
+},
+
+		"sound" : 
+		{
+			"attack": "slothlux/berries_attack.wav",
+			
+			"defend": "slothlux/berries_defence.wav",
+
+			"killed": "slothlux/berries_death.wav",
+
+			"move": "slothlux/berries_move.wav",
+			
+			"shoot": "slothlux/berries_shot.wav"
+		}					
+
+
+
+	}
+}

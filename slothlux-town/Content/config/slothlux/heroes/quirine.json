@@ -1,0 +1,61 @@
+{
+	"quirine" :
+	{
+		"class" : "enlighter",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "slothlux/heroes/quirine/fortune32.bmp",
+			"specialtyLarge" : "slothlux/heroes/quirine/fortune44.bmp",
+			"large" : "slothlux/heroes/quirine/quirine6458.bmp",
+			"small" : "slothlux/heroes/quirine/quirine4832.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "hapalops", "min" : 20, "max" : 30 },
+			{ "creature" : "fragaria", "min" :  5, "max" :  10 },
+			{ "creature" : "brocculat", "min" :  3, "max" :  5 }
+		],
+
+		"skills" :
+		[
+			
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			},
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Quirine",
+			"biography" : "unknown",
+			"specialty" : 
+			{
+				"description" : "Fortune",
+				"tooltip" : "Fortune",
+				"name" : "Fortune"
+			}
+		},
+		"spellbook" :
+		[
+			"fortune"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"fortune" : {
+					"subtype" : "spell.fortune",
+					"type" : "MAXED_SPELL"
+				}
+			}
+		}
+	}
+}

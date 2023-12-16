@@ -1,0 +1,88 @@
+{
+	"junis" :
+	{
+		"class" : "forthrunner",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "slothlux/heroes/junis/fragaria32.bmp",
+			"specialtyLarge" : "slothlux/heroes/junis/fragaria44.bmp",
+			"large" : "slothlux/heroes/junis/junis6458.bmp",
+			"small" : "slothlux/heroes/junis/junis4832.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "hapalops", "min" : 20, "max" : 30 },
+			{ "creature" : "fragaria", "min" :  5, "max" :  10 },
+			{ "creature" : "fragaria", "min" : 5, "max" :  10 }
+		],
+
+		"skills" :
+		[
+			
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+		],
+		"texts" :
+		{
+			"name" : "Junis",
+			"biography" : "unknown",
+			"specialty" : 
+			{
+				"description" : "extra attack and defence growing with level",
+				"tooltip" : "Bonus: Fragaria",
+				"name" : "Fragaria"
+			}
+		},
+		
+		"specialty": 
+		[
+			{
+				"growsWithLevel": true, 
+				"bonuses":
+				[
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 0,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["fragaria", true]
+							}
+						]
+					},
+					{
+						"type": "PRIMARY_SKILL",
+						"subtype": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["fragaria", true]
+							}
+						]
+					},
+					{
+						"type": "STACKS_SPEED",
+						"val": 1,
+						"limiters":
+						[
+							{
+								"type": "CREATURE_TYPE_LIMITER",
+								"parameters" : ["fragaria", true]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"imperialSloth" : 
+	{
+		"name" : { "singular" : "Imperial Sloth", "plural" : "Imperial Sloths" },
+		
+		"level" : 7,
+
+		"special" : false,
+		
+		"faction" : "slothlux", 
+		
+		"cost" : { "gold" : 6000, "crystal" :3 },
+		
+		"fightValue" : 14000,
+		
+		"aiValue" : 17000,
+		
+		"growth" : 1,
+		
+//		"hordeGrowth" : 1,
+	
+		"attack" : 32,
+		
+		"defense" : 28,
+		
+		"hitPoints" : 450,
+		
+		"speed" : 9,
+		
+		"damage" : { "min" : 50,"max" : 60},
+		"advMapAmount" : { "min" : 1,"max" : 5},
+
+		"doubleWide" : true,
+		
+"abilities" :
+		{
+		"KING1" :
+			{
+				"type" : "KING1"
+			},
+		"Mind Immune" :
+			{
+			"type" : "MIND_IMMUNITY"
+			}
+			,
+		"Double Strike" :
+			{
+			"type" : "ADDITIONAL_ATTACK",
+			"val" :1
+			}
+		
+				},
+		
+		"hasDoubleWeek": true,
+		
+		"graphics" :
+		{
+			"animation" : "slothlux/battle/creatures/isloth.def",
+
+			"map" : "slothlux/map/creatures/islothadv.def",
+
+			"iconSmall" : "slothlux/iconssmall/isloth32.bmp",
+
+			"iconLarge" : "slothlux/iconsbig/isloth58x64.bmp",
+
+			"timeBetweenFidgets" : 10,
+
+			"animationTime" : {	"walk" : 2.00, "idle" : 20.00, "attack" : 2.00, "flight" : 1.00 }
+		},
+
+		"sound" : 
+		{
+			"attack": "slothlux/hapalops_attack.wav",
+			
+			"defend": "slothlux/hapalops_defence.wav",
+
+			"killed": "slothlux/hapalops_death.wav",
+
+			"move": "slothlux/hapalops_move.wav",
+
+			"wince": "slothlux/hapalops_wince.wav"
+		}
+	}
+}

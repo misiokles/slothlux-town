@@ -1,0 +1,100 @@
+{
+    "core:creatureGeneratorCommon" : {
+        "types" : {
+            "hapalops_shrubs" : {
+                "name" : "Sloths' Shrubs",
+                "creatures" : [[ "hapalops" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "slothlux/map/dwellings/hapalops_shrubs.def",
+                        "mask" : ["VVV", "VVV", "VBA"]
+                    }
+                }
+            },
+	"mylodon_brook" : {
+                "name" : "Mylodons' Brook",
+                "creatures" : [[ "mylodon" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "slothlux/map/dwellings/mylodon_brook.def",
+                        "mask" : ["VVV", "VVV", "VBA"]
+                    }
+                }
+            },
+"beanoid_portal" : {
+                "name" : "Beanoid Portal",
+                "creatures" : [[ "blueBeanoid" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "slothlux/map/dwellings/beanoid_portal.def",
+                        "mask" : ["VV", "BA"]
+                    }
+                }
+            },
+
+"slothspire" : {
+                "name" : "Sloth Spire",
+                "creatures" : [[ "grandSloth" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "slothlux/map/dwellings/slothspire.def",
+                        "mask" : ["VVV", "VVV", "VBA"]
+                    }
+                }
+            },
+"imperialspire" : {
+                "name" : "Imperial Spire",
+                "creatures" : [[ "imperialSloth" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "slothlux/map/dwellings/imperialspire.def",
+                        "mask" : ["VVV", "VVV", "VBA"]
+                    }
+                }
+            },
+			
+"berryfield" : {
+                "name" : "Berries' Field",
+                "creatures" : [[ "fragaria" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "slothlux/map/dwellings/berryfield.def",
+                        "mask" : ["VV","VA"]
+                    }
+                }
+            },
+
+"broccuportal" : {
+                "name" : "Brocculats' Portal",
+                "creatures" : [[ "brocculat" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "slothlux/map/dwellings/broccu_portal.def",
+                        "mask" : ["VV","VA"]
+                    }
+                }
+            },
+
+"spheregenerator" : {
+                "name" : "Sphere Generator",
+                "creatures" : [[ "sphere" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "slothlux/map/dwellings/sphere_generator.def",
+                        "mask" : ["VV","VA"]
+                    }
+                }
+            }				
+			
+	
+        }
+    }
+}

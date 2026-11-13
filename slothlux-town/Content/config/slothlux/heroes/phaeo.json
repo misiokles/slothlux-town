@@ -1,26 +1,33 @@
 {
-	"phaeo" :
-	{
+	"phaeo" : {
 		"class" : "enlighter",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "slothlux/heroes/phaeo/firstaid32.bmp",
 			"specialtyLarge" : "slothlux/heroes/phaeo/firstaid44.bmp",
 			"large" : "slothlux/heroes/phaeo/phaeo6458.bmp",
 			"small" : "slothlux/heroes/phaeo/phaeo4832.bmp"
 		},
 
-		"army" :
-		[
-			{ "creature" : "hapalops", "min" : 20, "max" : 30 },
-			{ "creature" : "fragaria", "min" :  5, "max" :  10 },
-			{ "creature" : "brocculat", "min" :  3, "max" :  5 }
+		"army" : [
+			{
+				"creature" : "hapalops",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "fragaria",
+				"min" : 5,
+				"max" : 10
+			},
+			{
+				"creature" : "brocculat",
+				"min" : 3,
+				"max" : 5
+			}
 		],
 
-		"skills" :
-		[
-			
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -29,21 +36,17 @@
 				"level" : "basic",
 				"skill" : "firstAid"
 			}
-			
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Phaeo",
 			"biography" : "unknown",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "First Aid",
 				"tooltip" : "First Aid",
 				"name" : "First Aid"
 			}
 		},
-		"spellbook" :
-		[
+		"spellbook" : [
 			"cure"
 		],
 		"specialty" : {

@@ -1,26 +1,33 @@
 {
-	"dyfyr" :
-	{
+	"dyfyr" : {
 		"class" : "enlighter",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "slothlux/heroes/dyfyr/intelligence32.bmp",
 			"specialtyLarge" : "slothlux/heroes/dyfyr/intelligence44.bmp",
 			"large" : "slothlux/heroes/dyfyr/dyfyr6458.bmp",
 			"small" : "slothlux/heroes/dyfyr/dyfyr4832.bmp"
 		},
 
-		"army" :
-		[
-			{ "creature" : "hapalops", "min" : 20, "max" : 30 },
-			{ "creature" : "fragaria", "min" :  5, "max" :  10 },
-			{ "creature" : "brocculat", "min" :  3, "max" :  5 }
+		"army" : [
+			{
+				"creature" : "hapalops",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "fragaria",
+				"min" : 5,
+				"max" : 10
+			},
+			{
+				"creature" : "brocculat",
+				"min" : 3,
+				"max" : 5
+			}
 		],
 
-		"skills" :
-		[
-			
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -28,21 +35,18 @@
 			{
 				"level" : "basic",
 				"skill" : "intelligence"
-			},
+			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Dyfyr",
 			"biography" : "unknown",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Intelligence skill growing with level",
 				"tooltip" : "Bonus: Intelligence",
 				"name" : "Intelligence"
 			}
 		},
-		"spellbook" :
-		[
+		"spellbook" : [
 			"dispel"
 		],
 		"specialty" : {

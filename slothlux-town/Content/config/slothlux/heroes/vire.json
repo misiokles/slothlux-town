@@ -1,26 +1,33 @@
 {
-	"vire" :
-	{
+	"vire" : {
 		"class" : "forthrunner",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "slothlux/heroes/vire/archery32.bmp",
 			"specialtyLarge" : "slothlux/heroes/vire/archery44.bmp",
 			"large" : "slothlux/heroes/vire/vire6458.bmp",
 			"small" : "slothlux/heroes/vire/vire4832.bmp"
 		},
 
-		"army" :
-		[
-			{ "creature" : "hapalops", "min" : 20, "max" : 30 },
-			{ "creature" : "fragaria", "min" :  5, "max" :  10 },
-			{ "creature" : "brocculat", "min" :  3, "max" :  5 }
+		"army" : [
+			{
+				"creature" : "hapalops",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "fragaria",
+				"min" : 5,
+				"max" : 10
+			},
+			{
+				"creature" : "brocculat",
+				"min" : 3,
+				"max" : 5
+			}
 		],
 
-		"skills" :
-		[
-			
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "eagleEye"
@@ -28,20 +35,18 @@
 			{
 				"level" : "basic",
 				"skill" : "archery"
-			},
+			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Vire",
 			"biography" : "unknown",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Archery skill growing with level",
 				"tooltip" : "Income Bonus: archery",
 				"name" : "Archery"
 			}
 		},
-		
+
 		"specialty" : {
 			"secondary" : "archery"
 		}

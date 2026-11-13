@@ -1,43 +1,50 @@
 {
-	"strawberry" : 
-	{
-		"name" : { "singular" : "Strawberry", "plural" : "Strawberries" },
-		
+	"strawberry" : {
+		"name" : {
+			"singular" : "Strawberry",
+			"plural" : "Strawberries"
+		},
+
 		"level" : 2,
 
 		"special" : false,
-		
-		"faction" : "slothlux", 
-		
-		"cost" : { "gold" : 140 },
-		
+
+		"faction" : "slothlux",
+
+		"cost" : {
+			"gold" : 140
+		},
+
 		"fightValue" : 150,
-		
+
 		"aiValue" : 150,
-		
+
 		"growth" : 8,
-		
-//		"hordeGrowth" : 1,
-	
+
+		//		"hordeGrowth" : 1,
+
 		"attack" : 6,
-		
+
 		"defense" : 4,
-		
+
 		"hitPoints" : 12,
-		
+
 		"speed" : 8,
-		
-		"damage" : { "min" : 2,"max" : 4},
-		"advMapAmount" : { "min" : 25,"max" : 100},
 
-		"shots" : 24,	
+		"damage" : {
+			"min" : 2,
+			"max" : 4
+		},
+		"advMapAmount" : {
+			"min" : 25,
+			"max" : 100
+		},
 
+		"shots" : 24,
 
-		"hasDoubleWeek": true,
-		
-		"graphics" :
-		
-		{
+		"hasDoubleWeek" : true,
+
+		"graphics" : {
 			"animation" : "slothlux/battle/creatures/strawberries.def",
 
 			"map" : "slothlux/map/creatures/strawberryadv.def",
@@ -48,14 +55,16 @@
 
 			"timeBetweenFidgets" : 10,
 
-			"animationTime" : {	"walk" : 2.00, "idle" : 10.00, "attack" : 2.00 }, 
+			"animationTime" : {
+				"walk" : 2.0,
+				"idle" : 10.0,
+				"attack" : 2.0
+			},
 
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "slothlux/battle/creatures/pberries.def",
 				"attackClimaxFrame" : 0,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 25,
 					"upperY" : -40,
 					"middleX" : 25,
@@ -63,44 +72,38 @@
 					"lowerX" : 25,
 					"lowerY" : -40
 				},
-				"frameAngles" : [ -90, -45, 0, 45, 90]
+				"frameAngles" : [
+					-90,
+					-45,
+					0,
+					45,
+					90
+				]
+			}
 		},
-		
-			
-			},
 
-			"abilities" :
-		{
-			"canShoot" :
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"Mind Immune" :
-			{
-			"type" : "MIND_IMMUNITY"
+			"Mind Immune" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"freeShooting" : {
+				"type" : "FREE_SHOOTING"
 			}
-			,
-					
-			"freeShooting":
-			{
-				"type" : "FREE_SHOOTING" 					
-			}
-},
+		},
 
-		"sound" : 
-		{
-			"attack": "slothlux/berries_attack.wav",
-			
-			"defend": "slothlux/berries_defence.wav",
+		"sound" : {
+			"attack" : "slothlux/berries_attack.wav",
 
-			"killed": "slothlux/berries_death.wav",
+			"defend" : "slothlux/berries_defence.wav",
 
-			"move": "slothlux/berries_move.wav",
-			
-			"shoot": "slothlux/berries_shot.wav"
-		}			
+			"killed" : "slothlux/berries_death.wav",
 
+			"move" : "slothlux/berries_move.wav",
 
-
+			"shoot" : "slothlux/berries_shot.wav"
+		}
 	}
 }

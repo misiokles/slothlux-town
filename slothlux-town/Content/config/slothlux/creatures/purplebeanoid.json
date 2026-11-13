@@ -1,43 +1,50 @@
 {
-	"purpleBeanoid" : 
-	{
-		"name" : { "singular" : "Purple Beanoid", "plural" : "Purple Beanoids" },
-		
+	"purpleBeanoid" : {
+		"name" : {
+			"singular" : "Purple Beanoid",
+			"plural" : "Purple Beanoids"
+		},
+
 		"level" : 6,
 
 		"special" : false,
-		
-		"faction" : "slothlux", 
-		
-		"cost" : { "gold" : 1200 },
-		
+
+		"faction" : "slothlux",
+
+		"cost" : {
+			"gold" : 1200
+		},
+
 		"fightValue" : 1500,
-		
+
 		"aiValue" : 1500,
-		
+
 		"growth" : 2,
-		
-//		"hordeGrowth" : 1,
-	
+
+		//		"hordeGrowth" : 1,
+
 		"attack" : 16,
-		
+
 		"defense" : 14,
-		
+
 		"hitPoints" : 70,
-		
+
 		"speed" : 10,
-		
-		"damage" : { "min" : 16,"max" : 20},
-		"advMapAmount" : { "min" : 5,"max" : 10},
 
-		"shots" : 24,	
+		"damage" : {
+			"min" : 16,
+			"max" : 20
+		},
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 10
+		},
 
+		"shots" : 24,
 
-		"hasDoubleWeek": true,
-		
-		"graphics" :
-		
-		{
+		"hasDoubleWeek" : true,
+
+		"graphics" : {
 			"animation" : "slothlux/battle/creatures/beanoid2.def",
 
 			"map" : "slothlux/map/creatures/advbeanoid2.def",
@@ -48,14 +55,16 @@
 
 			"timeBetweenFidgets" : 10,
 
-			"animationTime" : {	"walk" : 2.00, "idle" : 10.00, "attack" : 2.00 }, 
+			"animationTime" : {
+				"walk" : 2.0,
+				"idle" : 10.0,
+				"attack" : 2.0
+			},
 
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "slothlux/battle/creatures/pbeanoid.def",
 				"attackClimaxFrame" : 0,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 25,
 					"upperY" : -40,
 					"middleX" : 25,
@@ -63,54 +72,49 @@
 					"lowerX" : 25,
 					"lowerY" : -40
 				},
-				"frameAngles" : [ -90, -45, 0, 45, 90]
+				"frameAngles" : [
+					-90,
+					-45,
+					0,
+					45,
+					90
+				]
+			}
 		},
-		
-			
-			},
-"sound" : 
-		{
-			"attack": "slothlux/attack001.wav",
-			
-			"defend": "slothlux/defence002.wav",
+		"sound" : {
+			"attack" : "slothlux/attack001.wav",
 
-			"killed": "slothlux/death002.wav",
+			"defend" : "slothlux/defence002.wav",
 
-			"move": "slothlux/move011.wav",
-			
-			"shoot": "slothlux/shoot002.wav",
+			"killed" : "slothlux/death002.wav",
 
-			"wince": "slothlux/wince001.wav"
+			"move" : "slothlux/move011.wav",
+
+			"shoot" : "slothlux/shoot002.wav",
+
+			"wince" : "slothlux/wince001.wav"
 		},
-			"abilities" :
-		{
-			"canShoot" :
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"shootTwice" :
-			{
-			"type" : "ADDITIONAL_ATTACK",
-			"val" :1,
-			"limiters" : [ "SHOOTER_ONLY" ]
-
+			"shootTwice" : {
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"limiters" : [
+					"SHOOTER_ONLY"
+				]
 			},
-			
-			"noObstaclePenalty":
-			{	
+
+			"noObstaclePenalty" : {
 				"type" : "NO_WALL_PENALTY"
 			},
-			"fly":
-			{
-				"type" : "FLYING" 					
+			"fly" : {
+				"type" : "FLYING"
 			},
-			"freeShooting":
-			{
-				"type" : "FREE_SHOOTING" 					
+			"freeShooting" : {
+				"type" : "FREE_SHOOTING"
 			}
-}			
-
-
-
+		}
 	}
 }

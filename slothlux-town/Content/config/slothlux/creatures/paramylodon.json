@@ -1,59 +1,66 @@
 {
-	"paramylodon" : 
-	{
-		"name" : { "singular" : "Paramylodon", "plural" : "Paramylodons" },
-		
+	"paramylodon" : {
+		"name" : {
+			"singular" : "Paramylodon",
+			"plural" : "Paramylodons"
+		},
+
 		"level" : 5,
 
 		"special" : false,
-		
-		"faction" : "slothlux", 
-		
-		"cost" : { "gold" : 700 },
-		
-		"fightValue" : 968,
-		
-		"aiValue" : 1077,
-		
-		"growth" : 3,
-		
-//		"hordeGrowth" : 1,
-	
-		"attack" : 12,
-		
-		"defense" : 12,
-		
-		"hitPoints" : 60,
-		
-		"speed" : 8,
-		
-		"damage" : { "min" : 12,"max" : 16},
-		"advMapAmount" : { "min" : 5,"max" : 8},
 
+		"faction" : "slothlux",
+
+		"cost" : {
+			"gold" : 700
+		},
+
+		"fightValue" : 968,
+
+		"aiValue" : 1077,
+
+		"growth" : 3,
+
+		//		"hordeGrowth" : 1,
+
+		"attack" : 12,
+
+		"defense" : 12,
+
+		"hitPoints" : 60,
+
+		"speed" : 8,
+
+		"damage" : {
+			"min" : 12,
+			"max" : 16
+		},
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 8
+		},
 
 		"doubleWide" : true,
 
-		"abilities" :
-		{
-		"slowImmune": {
+		"abilities" : {
+			"slowImmune" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype":  "slow",
-				"addInfo":0
-				},
-		"merry": {
-    "type" : "COMBAT_EVENT_TRIGGER",
-    "subtype" : "enchanted",
-    "val" : 1,
-    "addInfo" : { "spell" : "core:mirth" }
+				"subtype" : "slow",
+				"addInfo" : 0
+			},
+			"merry" : {
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"val" : 1,
+				"addInfo" : {
+					"spell" : "core:mirth"
 				}
+			}
 		},
-		
 
-		
-		"hasDoubleWeek": true,
-		
-		"graphics" :
-		{
+		"hasDoubleWeek" : true,
+
+		"graphics" : {
 			"animation" : "slothlux/battle/creatures/paramylodon.def",
 
 			"map" : "slothlux/map/creatures/advpmylodon.def",
@@ -64,20 +71,23 @@
 
 			"timeBetweenFidgets" : 10,
 
-			"animationTime" : {	"walk" : 2.00, "idle" : 10.00, "attack" : 2.00 }
+			"animationTime" : {
+				"walk" : 2.0,
+				"idle" : 10.0,
+				"attack" : 2.0
+			}
 		},
 
-		"sound" : 
-		{
-			"attack": "slothlux/hapalops_attack.wav",
-			
-			"defend": "slothlux/hapalops_defence.wav",
+		"sound" : {
+			"attack" : "slothlux/hapalops_attack.wav",
 
-			"killed": "slothlux/hapalops_death.wav",
+			"defend" : "slothlux/hapalops_defence.wav",
 
-			"move": "slothlux/hapalops_move.wav",
+			"killed" : "slothlux/hapalops_death.wav",
 
-			"wince": "slothlux/hapalops_wince.wav"
+			"move" : "slothlux/hapalops_move.wav",
+
+			"wince" : "slothlux/hapalops_wince.wav"
 		}
 	}
 }

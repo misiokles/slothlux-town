@@ -1,26 +1,33 @@
 {
-	"tove" :
-	{
+	"tove" : {
 		"class" : "forthrunner",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "slothlux/heroes/tove/ballista32.bmp",
 			"specialtyLarge" : "slothlux/heroes/tove/ballista44.bmp",
 			"large" : "slothlux/heroes/tove/tove6458.bmp",
 			"small" : "slothlux/heroes/tove/tove4832.bmp"
 		},
 
-		"army" :
-		[
-			{ "creature" : "hapalops", "min" : 20, "max" : 30 },
-			{ "creature" : "fragaria", "min" :  5, "max" :  10 },
-			{ "creature" : "brocculat", "min" :  3, "max" :  5 }
+		"army" : [
+			{
+				"creature" : "hapalops",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "fragaria",
+				"min" : 5,
+				"max" : 10
+			},
+			{
+				"creature" : "brocculat",
+				"min" : 3,
+				"max" : 5
+			}
 		],
 
-		"skills" :
-		[
-			
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "armorer"
@@ -28,20 +35,18 @@
 			{
 				"level" : "basic",
 				"skill" : "artillery"
-			},
+			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Tove",
 			"biography" : "unknown",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Artillery skill growing with level",
 				"tooltip" : "Income Bonus: Artillery",
 				"name" : "Artillery"
 			}
 		},
-		
+
 		"specialty" : {
 			"creature" : "ballista"
 		}

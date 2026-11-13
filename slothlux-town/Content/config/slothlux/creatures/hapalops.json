@@ -1,43 +1,52 @@
 {
-	"hapalops" : 
-	{
-		"name" : { "singular" : "Hapalops", "plural" : "Hapalopses" },
-		
+	"hapalops" : {
+		"name" : {
+			"singular" : "Hapalops",
+			"plural" : "Hapalopses"
+		},
+
 		"level" : 1,
 
 		"special" : false,
-		
-		"faction" : "slothlux", 
-		
-		"cost" : { "gold" : 60 },
-		
+
+		"faction" : "slothlux",
+
+		"cost" : {
+			"gold" : 60
+		},
+
 		"fightValue" : 92,
-		
+
 		"aiValue" : 82,
-		
+
 		"growth" : 14,
-		
-//		"hordeGrowth" : 7,
-	
+
+		//		"hordeGrowth" : 7,
+
 		"attack" : 4,
-		
+
 		"defense" : 4,
-		
+
 		"hitPoints" : 6,
-		
+
 		"speed" : 4,
-		
-		"damage" : { "min" : 1,"max" : 3},
-		"advMapAmount" : { "min" : 20,"max" : 50},
 
-		"upgrades" :
-		["megalocnus"],
+		"damage" : {
+			"min" : 1,
+			"max" : 3
+		},
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 50
+		},
 
+		"upgrades" : [
+			"megalocnus"
+		],
 
-		"hasDoubleWeek": true,
-		
-		"graphics" :
-		{
+		"hasDoubleWeek" : true,
+
+		"graphics" : {
 			"animation" : "slothlux/battle/creatures/hapalops.def",
 
 			"map" : "slothlux/map/creatures/advhapalops.def",
@@ -48,20 +57,23 @@
 
 			"timeBetweenFidgets" : 10,
 
-			"animationTime" : {	"walk" : 2.00, "idle" : 10.00, "attack" : 2.00 }
+			"animationTime" : {
+				"walk" : 2.0,
+				"idle" : 10.0,
+				"attack" : 2.0
+			}
 		},
 
-		"sound" : 
-		{
-			"attack": "slothlux/hapalops_attack.wav",
-			
-			"defend": "slothlux/hapalops_defence.wav",
+		"sound" : {
+			"attack" : "slothlux/hapalops_attack.wav",
 
-			"killed": "slothlux/hapalops_death.wav",
+			"defend" : "slothlux/hapalops_defence.wav",
 
-			"move": "slothlux/hapalops_move.wav",
+			"killed" : "slothlux/hapalops_death.wav",
 
-			"wince": "slothlux/hapalops_wince.wav"
+			"move" : "slothlux/hapalops_move.wav",
+
+			"wince" : "slothlux/hapalops_wince.wav"
 		}
 	}
 }

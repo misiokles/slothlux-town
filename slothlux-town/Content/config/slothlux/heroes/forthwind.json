@@ -1,26 +1,33 @@
 {
-	"forthwind" :
-	{
+	"forthwind" : {
 		"class" : "enlighter",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "slothlux/heroes/forthwind/haste32.bmp",
 			"specialtyLarge" : "slothlux/heroes/forthwind/haste44.bmp",
 			"large" : "slothlux/heroes/forthwind/forthwind6458.bmp",
 			"small" : "slothlux/heroes/forthwind/forthwind4832.bmp"
 		},
 
-		"army" :
-		[
-			{ "creature" : "hapalops", "min" : 20, "max" : 30 },
-			{ "creature" : "fragaria", "min" :  5, "max" :  10 },
-			{ "creature" : "brocculat", "min" :  3, "max" :  5 }
+		"army" : [
+			{
+				"creature" : "hapalops",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "fragaria",
+				"min" : 5,
+				"max" : 10
+			},
+			{
+				"creature" : "brocculat",
+				"min" : 3,
+				"max" : 5
+			}
 		],
 
-		"skills" :
-		[
-			
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -28,21 +35,18 @@
 			{
 				"level" : "basic",
 				"skill" : "airMagic"
-			},
+			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Forthwind",
 			"biography" : "unknown",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Haste can cast the Haste spell with increased effectiveness",
 				"tooltip" : "Spell Bonus: Haste",
 				"name" : "Haste"
 			}
 		},
-		"spellbook" :
-		[
+		"spellbook" : [
 			"haste"
 		],
 		"specialty" : {

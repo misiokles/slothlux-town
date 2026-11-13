@@ -1,54 +1,61 @@
 {
-	"royalSloth" : 
-	{
-		"name" : { "singular" : "Royal Sloth", "plural" : "Royal Sloths" },
-		
+	"royalSloth" : {
+		"name" : {
+			"singular" : "Royal Sloth",
+			"plural" : "Royal Sloths"
+		},
+
 		"level" : 7,
 
 		"special" : false,
-		
-		"faction" : "slothlux", 
-		
-		"cost" : { "gold" : 3000, "crystal" :2 },
-		
+
+		"faction" : "slothlux",
+
+		"cost" : {
+			"gold" : 3000,
+			"crystal" : 2
+		},
+
 		"fightValue" : 5000,
-		
+
 		"aiValue" : 6000,
-		
+
 		"growth" : 1,
-		
-//		"hordeGrowth" : 1,
-	
+
+		//		"hordeGrowth" : 1,
+
 		"attack" : 24,
-		
+
 		"defense" : 22,
-		
+
 		"hitPoints" : 225,
-		
+
 		"speed" : 8,
-		
-		"damage" : { "min" : 30,"max" : 40},
-		"advMapAmount" : { "min" : 2,"max" : 7},
+
+		"damage" : {
+			"min" : 30,
+			"max" : 40
+		},
+		"advMapAmount" : {
+			"min" : 2,
+			"max" : 7
+		},
 
 		"doubleWide" : true,
-		
-"abilities" :
-		{
-		"KING1" :
-			{
+
+		"abilities" : {
+			"KING1" : {
 				"type" : "KING",
 				"val" : 0
 			},
-		"Mind Immune" :
-			{
+			"Mind Immune" : {
 				"type" : "MIND_IMMUNITY"
 			}
 		},
-		
-		"hasDoubleWeek": true,
-		
-		"graphics" :
-		{
+
+		"hasDoubleWeek" : true,
+
+		"graphics" : {
 			"animation" : "slothlux/battle/creatures/rsloth.def",
 
 			"map" : "slothlux/map/creatures/rslothadv.def",
@@ -59,20 +66,23 @@
 
 			"timeBetweenFidgets" : 10,
 
-			"animationTime" : {	"walk" : 2.00, "idle" : 20.00, "attack" : 2.00 }
+			"animationTime" : {
+				"walk" : 2.0,
+				"idle" : 20.0,
+				"attack" : 2.0
+			}
 		},
 
-		"sound" : 
-		{
-			"attack": "slothlux/hapalops_attack.wav",
-			
-			"defend": "slothlux/hapalops_defence.wav",
+		"sound" : {
+			"attack" : "slothlux/hapalops_attack.wav",
 
-			"killed": "slothlux/hapalops_death.wav",
+			"defend" : "slothlux/hapalops_defence.wav",
 
-			"move": "slothlux/hapalops_move.wav",
+			"killed" : "slothlux/hapalops_death.wav",
 
-			"wince": "slothlux/hapalops_wince.wav"
+			"move" : "slothlux/hapalops_move.wav",
+
+			"wince" : "slothlux/hapalops_wince.wav"
 		}
 	}
 }

@@ -37,23 +37,14 @@
 			"biography" : "unknown",
 			"specialty" : 
 			{
-				"description" : "logistics skill growing with level",
+				"description" : "Logistics skill growing with level",
 				"tooltip" : "Income Bonus: logistics",
 				"name" : "Logistics"
 			}
 		},
 		
 		"specialty" : {
-			"bonuses" : {
-				"logistics" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"subtype" : "heroMovementLand",
-					"type" : "MOVEMENT",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE"
-				}
-			}
+			"secondary" : "logistics"
 		}
 	}
 }

@@ -36,7 +36,7 @@
 			"biography" : "unknown",
 			"specialty" : 
 			{
-				"description" : "Spell Bonus: Haste can cast the Haste spell with increased effectiveness",
+				"description" : "Haste can cast the Haste spell with increased effectiveness",
 				"tooltip" : "Spell Bonus: Haste",
 				"name" : "Haste"
 			}
@@ -46,14 +46,7 @@
 			"haste"
 		],
 		"specialty" : {
-			"bonuses" : {
-				"haste" : {
-					"subtype" : "spell.haste",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
-				}
-			}
+			"spellFixedAdditive" : "haste"
 		}
 	}
 }

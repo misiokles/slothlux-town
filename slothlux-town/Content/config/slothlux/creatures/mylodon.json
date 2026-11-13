@@ -39,13 +39,14 @@
 		{
 		"slowImmune": {
 				"type" : "SPELL_IMMUNITY",
-				"subtype":  "spell.slow",
+				"subtype":  "slow",
 				"addInfo":0
 				},
 		"merry": {
-				"subtype" : "spell.mirth",
-				"type" : "ENCHANTED",
-				"val" : 1,
+    "type" : "COMBAT_EVENT_TRIGGER",
+    "subtype" : "enchanted",
+    "val" : 1,
+    "addInfo" : { "spell" : "core:mirth" }
 				}
 		},
 		

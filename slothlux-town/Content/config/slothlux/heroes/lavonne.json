@@ -49,9 +49,9 @@
 			"bonuses" : {
 				"mirth" : {
 					"addInfo" : 3,
-					"subtype" : "spell.mirth",
+					"subtype" : "mirth",
 					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
-				}			
+				}
 			}
 		}
 	}

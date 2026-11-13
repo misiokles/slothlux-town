@@ -4,16 +4,11 @@
 	
 	"author" : "M.C.Phee",
 	"contact" : "slothlux@o2.pl",
-	"version" : "0.5.0",
+	"version" : "0.5.1",
 	"modType" : "Town",	
 	"compatibility" :
 	{
-		"min" : "1.4.0"
-	},
-	"changelog" :
-	{
-		"0.5.0"   : [ "Update to 1.4 format" ],
-		"0.4.0"   : [ "Initial release" ]
+		"min" : "1.8.0"
 	},	
     "factions" : [ "config/slothlux/town.json" ],
 	
@@ -48,7 +43,9 @@
 		"0.1.7" : ["Fragaria, Strawberries, Brocculats"],
 		"0.2.0" : ["Slothlux...whole town"],
 		"0.3.0" : ["New Great Sloths"],
-		"0.4.0" : ["renewed rest of the line-up"]
+		"0.4.0" : ["renewed rest of the line-up"],
+		"0.5.0"   : [ "Update to 1.4 format" ],
+		"0.5.1"   : [ "Update to 1.8 format" ]
     },  
 	
 	"heroClasses" :

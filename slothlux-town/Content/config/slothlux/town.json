@@ -1,7 +1,7 @@
 {
 	"slothlux" :
 	{
-		"nativeTerrain": "grass",
+		"nativeTerrain": [ "grass" ],
 		"alignment" : "good",
 		"boat" : "boatCastle",
 		"creatureBackground" :
@@ -251,6 +251,7 @@
 				{
 					"description" : "The Resource Silo provides you with an additional +1 crystal each day.",
 					"name" : "Resource Silo",
+					"produce": { "crystal": 1 },
 					"cost" :
 					{
 						"ore" : 5,
@@ -263,6 +264,7 @@
 				{
 					"description" : "The Blacksmith provides your armies with Ammo Cart.",
 					"name" : "Blacksmith",
+					"warMachine" : "ammoCart",
 					"cost" :
 					{
 						"wood" : 5,
@@ -572,7 +574,7 @@
 			},
 
 			
-			"musicTheme" : "music/factions/BreakInTheClouds.mp3",
+			"musicTheme" : [ "music/factions/BreakInTheClouds.mp3" ],
 			"defaultTavern" : 5,
 			"tavernVideo" : "TAVERN.BIK",
 			"guildBackground" : "TPMAGE.bmp",
@@ -610,7 +612,6 @@
 				}
 			},
 			"mageGuild" : 4,
-			"warMachine" : "ammoCart",
 			"moatAbility" : "castleMoat",
 			"names" : [
 				"Lavenix",

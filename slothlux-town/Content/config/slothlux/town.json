@@ -89,7 +89,7 @@
 						"ore" : 5,
 						"gold" : 2000
 					},
-					"id" : 0
+					
 				},
 				"mageGuild2" :
 				{
@@ -106,7 +106,7 @@
 						"gems" : 4,
 						"gold" : 1000
 					},
-					"id" : 1,
+					
 					"upgrades" : "mageGuild1"
 				},
 				"mageGuild3" :
@@ -123,7 +123,7 @@
 						"gems" : 6,
 						"gold" : 1000
 					},
-					"id" : 2,
+					
 					"upgrades" : "mageGuild2"
 				},
 								"mageGuild4" :
@@ -140,7 +140,7 @@
                         "gems": 8,
                         "gold": 1000
 					},
-					"id" : 3,
+					
 					"upgrades" : "mageGuild3"
 				},
 				
@@ -153,7 +153,7 @@
 						"wood" : 5,
 						"gold" : 500
 					},
-					"id" : 5
+					
 				},
 				
 				"fort" :
@@ -166,7 +166,7 @@
 						"ore" : 20,
 						"gold" : 5000
 					},
-					"id" : 7
+					
 				},
 				"citadel" :
 				{
@@ -177,7 +177,7 @@
 						"ore" : 5,
 						"gold" : 2500
 					},
-					"id" : 8,
+					
 					"upgrades" : "fort"
 				},
 				"castle" :
@@ -190,14 +190,14 @@
 						"ore" : 10,
 						"gold" : 5000
 					},
-					"id" : 9,
+					
 					"upgrades" : "citadel"
 				},
 				"villageHall" :
 				{
 					"name" : "Village Hall",
 					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"id" : 10,
+					
 					"mode" : "auto"
 				},
 				"townHall" :
@@ -208,7 +208,7 @@
 					{
 						"gold" : 2500
 					},
-					"id" : 11,
+					
 					"requires" : [ "tavern" ],
 					"upgrades" : "villageHall"
 				},
@@ -221,7 +221,7 @@
 						"gold" : 5000
 					},
 					"requires" : [ "allOf", ["mageGuild1"], ["marketplace"], ["blacksmith"] ],
-					"id" : 12,
+					
 					"upgrades" : "townHall"
 				},
 				"capitol" :
@@ -232,7 +232,7 @@
 					{
 						"gold" : 10000
 					},
-					"id" : 13,
+					
 					"requires" : [ "castle" ],
 					"upgrades" : "cityHall"
 				},
@@ -245,7 +245,7 @@
 						"wood" : 5,
 						"gold" : 500
 					},
-					"id" : 14
+					
 				},
 				"resourceSilo" :
 				{
@@ -257,7 +257,7 @@
 						"gold" : 5000
 					},
 					"requires" : [ "marketplace" ],
-					"id" : 15
+					
 				},
 				"blacksmith" :
 				{
@@ -268,7 +268,7 @@
 						"wood" : 5,
 						"gold" : 1000
 					},
-					"id" : 16
+					
 				},
 				
 				"horde1" :
@@ -279,7 +279,7 @@
 					{
 						"gold" : 1000
 					},
-					"id" : 18,
+					
 					"upgrades" : "dwellingLvl1"	
 				},
 				"horde1Upgr" :
@@ -291,7 +291,7 @@
 						"gold" : 1000
 					},
 					"requires" : ["horde1"],
-					"id" : 19,
+					
 					"upgrades" : "dwellingUpLvl1",
 					"mode" : "auto"
 				},
@@ -305,7 +305,7 @@
 					"ore": 5,
 					"gold" : 1000
 					},
-					"id" : 17
+					
 				},
 				
 				"special2": {
@@ -316,7 +316,7 @@
 				"ore": 5,
 				"gold": 1000
 				},
-					"id": 21
+					
 				},	
 				
 				
@@ -324,7 +324,7 @@
 				{
 					"description" : "The presence of the Imperial Statue increases weekly creature generation by 50%, provides your empire with an additional 5000 gold each day, and increases all primary skills by 3 each when defending against a siege.",
 					"name" : "Imperial Statue",
-					"id" : 26,
+					
 					"mode" : "grail"
 				},
 				"dwellingLvl1" :
@@ -337,7 +337,7 @@
 						"ore" : 5
 					},
 					"requires" : [ "fort" ],
-					"id" : 30
+					
 				},
 				"dwellingLvl2" :
 				{
@@ -350,7 +350,7 @@
             "wood": 5
 					},
 					"requires" : [ "dwellingLvl1" ],
-					"id" : 31
+					
 				},
 				"dwellingLvl3" :
 				{
@@ -367,7 +367,7 @@
                         "gold": 2000
 					},
 					"requires" : [ "dwellingLvl2" ],
-					"id" : 32
+					
 				},
 				"dwellingLvl4" :
 				{
@@ -384,7 +384,7 @@
                         "gold": 2000
 					},
 					"requires" : [ "allOf", ["mageGuild1"], ["dwellingLvl3"] ],
-					"id" : 33
+					
 				},
 				"dwellingLvl5" :
 				{
@@ -399,7 +399,7 @@
 						"gems":5
 					},
 					"requires" : ["dwellingLvl4"],
-					"id" : 34
+					
 				},
 				"dwellingLvl6" :
 				{
@@ -415,7 +415,7 @@
                         "gold": 4000
 					},
 					"requires" : [ "dwellingLvl5" ],
-					"id" : 35
+					
 				},
 				"dwellingLvl7" :
 				{
@@ -429,7 +429,7 @@
 						"crystal" : 10
 					},
 					"requires" : [ "dwellingLvl6" ],
-					"id" : 36
+					
 				},
 				"dwellingUpLvl1" :
 				{
@@ -439,7 +439,7 @@
 					{
 						"gold" : 1000
 					},
-					"id" : 37,
+					
 					"requires" : ["dwellingLvl1"],
 					"upgrades" : "dwellingLvl1"
 				},
@@ -452,7 +452,7 @@
 						"gold" : 1000,
 						"gems": 5,
             		},
-					"id" : 38,
+					
 					"requires" :[ "allOf", ["mageGuild1"], ["dwellingLvl2"] ],
 					"upgrades" : "dwellingLvl2"
 				},
@@ -468,7 +468,7 @@
                         "gems": 2,
                         "gold": 2000
 					},
-					"id" : 39,
+					
 					"requires" : [ "allOf", ["mageGuild2"], ["dwellingLvl3"] ],
 					"upgrades" : "dwellingLvl3"
 				},
@@ -482,7 +482,7 @@
 						"ore": 5,
 						"mercury": 5
 					},
-					"id" : 40,
+					
 					"requires" : [ "allOf", ["mageGuild2"], ["dwellingLvl4"] ],
 					"upgrades" : "dwellingLvl4"
 				},
@@ -495,7 +495,7 @@
 						"gold" : 3000,
 						"gems": 10
 					},
-					"id" : 41,
+					
 					"requires" : [ "dwellingLvl5" ],
 					"upgrades" : "dwellingLvl5"
 				},
@@ -511,7 +511,7 @@
 						"gems": 3,
 						"sulfur": 3
 					},
-					"id" : 42,
+					
 					"requires" : [ "allOf", ["mageGuild2"], ["dwellingLvl6"] ],
 					"upgrades" : "dwellingLvl6"
 				},
@@ -526,7 +526,7 @@
 						"ore" : 10,
 						"crystal" : 20
 					},
-					"id" : 43,
+					
 					"requires" : [ "dwellingLvl7" ],
 					"upgrades" : "dwellingLvl7"
 				}				
